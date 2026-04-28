@@ -14,6 +14,7 @@ function LoginPage() {
                     <div>
 
                     </div>
+
                     <div id='login-container'>
 
                         <h3>STUDENTS PORTAL</h3>
@@ -39,6 +40,7 @@ function LoginPage() {
                     </div>
                      
                 </div>
+                
             </div>
 
         </>

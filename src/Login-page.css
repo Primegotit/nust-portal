@@ -50,6 +50,8 @@ nav h2{
     display: grid;
     grid-template-rows: 1fr 280px 2fr;
     justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -59,6 +61,10 @@ nav h2{
     border-radius: 6px;
     background: white;
     padding:17px ;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
 
 }
 
@@ -116,7 +122,9 @@ nav h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
     align-self: end;
+    width: 100%;
 }
 
 #bottom-nust-banner h4{
@@ -131,13 +139,36 @@ nav h2{
 
     #loginpage{
         height: 120vh;
-}
+    }
 
     #bottom-nust-banner{
         visibility: visible;
+
+        width:  100vw;
+
     }
     nav h2{
         font-size: 20px;
+    }
+
+    #login-container{
+        width: 400px;
+        height: 280px;
+        border-radius: 6px;
+        background: white;
+        padding:17px ;
+
+    }
+}
+
+@media (max-width: 400px) {
+ 
+        #bottom-nust-banner{
+        visibility: visible;
+        min-width:  410px;
+    
+
+
     }
 }
 
@@ -148,6 +179,27 @@ nav h2{
 
     #bottom-nust-banner{
         visibility: visible;
+        min-width:  400px;
+    
+
+
+    }
+
+    #bottom-nust-banner h4{
+        font-weight: 400;
+        font-size: 15px;
+        
+        text-align: center;
+    }
+
+
+    #login-container{
+        width: 390px;
+        height: 280px;
+        border-radius: 6px;
+        background: white;
+        padding:17px ;
+
     }
 
 }

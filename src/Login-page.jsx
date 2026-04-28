@@ -34,8 +34,8 @@ function LoginPage() {
 
                     </div>
 
-                    <div id=''>
-                        <h2>EYoooooooo</h2>
+                    <div id='bottom-nust-banner'>
+                        <h4>2026 National University of Science and Technology</h4>
                     </div>
                      
                 </div>

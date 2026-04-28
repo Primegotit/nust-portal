@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <LoginPage></LoginPage>
-      <WelcomePage></WelcomePage>
+      {/* <WelcomePage></WelcomePage> */}
 
     </>
   )

@@ -10,12 +10,34 @@ function LoginPage() {
                 </nav>
 
                 <div id='main-login-body'>
-                    <div id='login-container'>
-                        <h3>STUDENTS PORTAL</h3>
-                        <input type="text" placeholder='Student Number' />
-                        <input type="text" placeholder='Password' />
+
+                    <div>
 
                     </div>
+                    <div id='login-container'>
+
+                        <h3>STUDENTS PORTAL</h3>
+                        <br />
+                        <form action="">
+                            <div id='textbox-container'>
+                                <input type="text" placeholder='Student Number' />
+                                <input type="password" placeholder='Password' />
+
+
+                            </div>
+                            <br />
+                            <input type="submit" value={"LOG IN"} id='login-btn'/>
+
+
+                        </form>
+
+
+                    </div>
+
+                    <div id=''>
+                        <h2>EYoooooooo</h2>
+                    </div>
+                     
                 </div>
             </div>
 

@@ -7,7 +7,7 @@
 
 
 #student-dashboard-page{
-    min-height: 100vh;
+    height: max-content;
     width: 100%;
     background:rgb(15, 15, 15) ;
 
@@ -255,6 +255,8 @@ aside{
     top: -10px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
     border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid rgb(0, 255, 34);
+
 
 }
 
@@ -277,7 +279,7 @@ aside{
     align-items: center;
 
     padding: 10px;
-    gap: 40px;
+    gap: 20px;
 }
 
 #person-info{
@@ -287,21 +289,45 @@ aside{
     gap: 10px;
 }
 
-#person-info h1{
-    font-size: clamp(0.9rem, 2.5vw, 1.59rem);
-    font-weight: 300;
+#person-info table{
+    border-collapse: collapse;
 }
 
 
 
-#person-info h2{
-    font-size: clamp(0.5rem, 2.5vw, 1.03rem);
-    font-weight: 300;
+#person-info table td{
+    padding: 10px 10px 10px 7px ;
+    border-bottom: 1px solid rgb(118, 118, 118);
+    border-bottom: 1px solid var(--primary-color);
+
 
 }
 
-#person-info label{
-    font-size: clamp(0.5rem, 2.5vw, 1.03rem);
+#person-info table tr{
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#person-info table tr:hover{
+    transform: translateX(10px);
+}
+
+
+
+#person-info #hh1{
+    font-size: clamp(0.8rem, 2.5vw, 1.13rem);
+    font-weight: 400;
+}
+
+
+
+#person-info #hh2{
+    font-size: clamp(0.8rem, 2.5vw, 1.03rem);
+    font-weight: 400;
+}
+
+#person-info #labell{
+    font-size: clamp(0.8rem, 2.5vw, 1.03rem);
     font-weight: 300;
 }
 
@@ -371,9 +397,15 @@ aside{
 
     #main-content{
         grid-template-columns: 35% 75%;
+        /* grid-template-columns: 100%; */
+
 
 
     }
+    
+    aside{
+        /* display: none; */
+    }   
 
     #btns{
         font-size: 10px;
@@ -383,7 +415,7 @@ aside{
     }
 
     #btns-icons{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     #student-card h4{

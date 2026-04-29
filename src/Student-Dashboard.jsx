@@ -60,6 +60,7 @@ function StudentDashboard(){
                     <section id='content-container'>
 
                         <div id='person-information' className='content-box'>
+                            
                             <div id='top-banner'>
                                 <h3>Personal Information</h3>
                             </div>
@@ -72,15 +73,52 @@ function StudentDashboard(){
                                 </div>
 
                                 <div id='person-info'>
-                                    <h1>{"Promise Siafwiyo"}</h1>
-                                    <h2>ID Number : {"08-9905455555"}</h2>
-                                    <label htmlFor="">City : {"Bulawayo"} , {"Nkulumane"}</label>
-                                    <label htmlFor="">Country : {"Zimbabwe"}</label>
-                                    <label htmlFor="">Phone Number : {"07899999999"}</label>
-                                    <label htmlFor="">Gender : {"Male"}</label>
-                                    <label htmlFor="">Date of Birth : {"05-04-2005"}</label>
-                                    <label htmlFor="">Place of Birth : {"Zimbabwe"}</label>
+                                    <table>
 
+                                        <tbody>
+                                            <tr>
+                                                <td id='hh1'>Name   </td>
+                                                <td id='hh1'>Promise Siafwyo</td>
+                                            </tr>
+                                            <tr >
+                                                <td id='hh2'>ID Number</td>
+                                                <td id='hh2'>{"08-9905455555"}</td>
+                                            </tr>
+
+                                            <tr >
+                                                <td id='#labell' >City</td>
+                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Country</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td id='#labell'>Phone Number</td>
+                                                <td id='#labell'>{"07899999999"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Gender</td>
+                                                <td id='#labell'>{"Male"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Date of Birth</td>
+                                                <td id='#labell'>{"05-04-2005"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Place of Birth</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
 
                                 </div>
 
@@ -92,6 +130,67 @@ function StudentDashboard(){
                             <div id='top-banner'>
                                 <h3>Currently registred courses</h3>
                             </div>
+
+
+                            <div id='person-container'>
+                                    
+                                <div id='person-img'>
+                                    <img src="/me1.png" alt="" id='student-dp' />
+
+                                </div>
+
+                                <div id='person-info'>
+                                    <table>
+
+                                        <tbody>
+                                            <tr>
+                                                <td id='hh1'>Name   </td>
+                                                <td id='hh1'>Promise Siafwyo</td>
+                                            </tr>
+                                            <tr >
+                                                <td id='hh2'>ID Number</td>
+                                                <td id='hh2'>{"08-9905455555"}</td>
+                                            </tr>
+
+                                            <tr >
+                                                <td id='#labell' >City</td>
+                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Country</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td id='#labell'>Phone Number</td>
+                                                <td id='#labell'>{"07899999999"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Gender</td>
+                                                <td id='#labell'>{"Male"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Date of Birth</td>
+                                                <td id='#labell'>{"05-04-2005"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Place of Birth</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                         
@@ -99,12 +198,134 @@ function StudentDashboard(){
                             <div id='top-banner'>
                                 <h3>Financial Details</h3>
                             </div>
+
+
+                                       <div id='person-container'>
+                                    
+                                <div id='person-img'>
+                                    <img src="/me1.png" alt="" id='student-dp' />
+
+                                </div>
+
+                                <div id='person-info'>
+                                    <table>
+
+                                        <tbody>
+                                            <tr>
+                                                <td id='hh1'>Name   </td>
+                                                <td id='hh1'>Promise Siafwyo</td>
+                                            </tr>
+                                            <tr >
+                                                <td id='hh2'>ID Number</td>
+                                                <td id='hh2'>{"08-9905455555"}</td>
+                                            </tr>
+
+                                            <tr >
+                                                <td id='#labell' >City</td>
+                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Country</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td id='#labell'>Phone Number</td>
+                                                <td id='#labell'>{"07899999999"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Gender</td>
+                                                <td id='#labell'>{"Male"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Date of Birth</td>
+                                                <td id='#labell'>{"05-04-2005"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Place of Birth</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                         <div id='financial-details' className='content-box'>
                             <div id='top-banner'>
                                 <h3>Academic Details</h3>
                             </div>
+
+
+                                       <div id='person-container'>
+                                    
+                                <div id='person-img'>
+                                    <img src="/me1.png" alt="" id='student-dp' />
+
+                                </div>
+
+                                <div id='person-info'>
+                                    <table>
+
+                                        <tbody>
+                                            <tr>
+                                                <td id='hh1'>Name   </td>
+                                                <td id='hh1'>Promise Siafwyo</td>
+                                            </tr>
+                                            <tr >
+                                                <td id='hh2'>ID Number</td>
+                                                <td id='hh2'>{"08-9905455555"}</td>
+                                            </tr>
+
+                                            <tr >
+                                                <td id='#labell' >City</td>
+                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Country</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td id='#labell'>Phone Number</td>
+                                                <td id='#labell'>{"07899999999"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Gender</td>
+                                                <td id='#labell'>{"Male"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Date of Birth</td>
+                                                <td id='#labell'>{"05-04-2005"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='#labell'>Place of Birth</td>
+                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                         

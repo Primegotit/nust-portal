@@ -72,14 +72,14 @@ function StudentDashboard(){
                                 </div>
 
                                 <div id='person-info'>
-                                    <h1>Promise Siafwiyo</h1>
-                                    <h2>ID Number : 08-9905455555</h2>
-                                    <label htmlFor="">City : {"Bulawayo"} , {"Nkulumane"}</label><br />
-                                    <label htmlFor="">Country : {"Zimbabwe"}</label><br />
-                                    <label htmlFor="">Phone Number : {"07899999999"}</label><br />
-                                    <label htmlFor="">Gender : {"Male"}</label><br />
-                                    <label htmlFor="">Date of Birth : {"05-04-2005"}</label><br />
-                                    <label htmlFor="">Place of Birth : {"Zimbabwe"}</label><br />
+                                    <h1>{"Promise Siafwiyo"}</h1>
+                                    <h2>ID Number : {"08-9905455555"}</h2>
+                                    <label htmlFor="">City : {"Bulawayo"} , {"Nkulumane"}</label>
+                                    <label htmlFor="">Country : {"Zimbabwe"}</label>
+                                    <label htmlFor="">Phone Number : {"07899999999"}</label>
+                                    <label htmlFor="">Gender : {"Male"}</label>
+                                    <label htmlFor="">Date of Birth : {"05-04-2005"}</label>
+                                    <label htmlFor="">Place of Birth : {"Zimbabwe"}</label>
 
 
                                 </div>

@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <StudentDashboard></StudentDashboard>
-      {/* <LoginPage></LoginPage> */}
+      <LoginPage></LoginPage>
 
       {/* <WelcomePage></WelcomePage> */}
 

@@ -308,18 +308,25 @@ aside{
 
 @media (max-width: 768px) {
 
+    #student-dashboard-page{
+        
+        display: grid;
+        grid-template-rows: 8% 92%;
+    
+    }
+
     #left-top-container h3{
-        font-size: clamp(0.6rem, 2.5vw, 1.2rem);
+        font-size: clamp(0.7rem, 2.5vw, 1.2rem);
     }
 
     #top-icons{
-        font-size: 23px;
+        font-size: 27px;
         transition: all 0.5s;
 
     }
 
     #uni-logo{
-        height: 23px;
+        height: 27px;
     }
     #right-top-container{
         gap: 10px;
@@ -355,7 +362,10 @@ aside{
 
     #person-container{
         gap: 10px;
+        flex-direction: column;
     }
+
+    
 
     
 

@@ -200,12 +200,13 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
 }
 #student-dp{
-    width: 60%;
+    width: 100%;
 }
 
 #student-card h4{
     font-size: clamp(0.9rem, 2.5vw, 0.99rem);
-
+    font-weight: 400;
 }

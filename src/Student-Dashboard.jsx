@@ -42,7 +42,7 @@ function StudentDashboard(){
                     <aside>
                         <div id='student-card'>
                             <div id='dp-container'>
-                                <img src="/logo_nust_png.png" alt="" id='student-dp' />
+                                <img src="/me1.png" alt="" id='student-dp' />
                             </div>
                             <h4>N02528961Y</h4>
                             <h4>Promise Siafwiyo</h4>

@@ -177,7 +177,6 @@ aside{
 #btns:hover{
     background: var(--dark-theme-hover-color);
     transform: translateX(10px);
-    border-radius: 9px;
 }
 
 #btns-icons{
@@ -255,7 +254,6 @@ aside{
     top: -10px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
     border-bottom: 1px solid var(--primary-color);
-    border-bottom: 1px solid rgb(0, 255, 34);
 
 
 }

@@ -40,14 +40,20 @@ function StudentDashboard(){
                 
                 <div  id='main-content'>
                     <aside>
-                        <MyButtons icon={<FaBars id='btns-icons'></FaBars>} name="New Registration" ></MyButtons>
+                        <div id='student-card'>
+                            <div id='dp-container'>
+                                <img src="/logo_nust_png.png" alt="" id='student-dp' />
+                            </div>
+                            <h4>N02528961Y</h4>
+                            <h4>Promise Siafwiyo</h4>
+
+                        </div>
+                        <MyButtons icon={<FaBars id='btns-icons'></FaBars>} name="Portal Dashboard" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="New Registration" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Payments History" ></MyButtons>
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
-                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
-                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
-                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
-                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
-                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
-                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Examinations Results" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Modules Information" ></MyButtons>
 
                     </aside>
 

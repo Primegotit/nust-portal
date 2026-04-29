@@ -183,4 +183,29 @@ aside{
 
 }
 
+#student-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-theme-text);
+    padding: 20px;
+    gap: 5px;
+}
 
+#dp-container {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#student-dp{
+    width: 60%;
+}
+
+#student-card h4{
+    font-size: clamp(0.9rem, 2.5vw, 0.99rem);
+
+}

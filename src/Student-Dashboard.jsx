@@ -18,17 +18,23 @@ function StudentDashboard(){
         <>
             <div id='student-dashboard-page'>
                 <header>
-                    <div id='left-top-container'>
-                        <FaBars id='top-icons'></FaBars>
-                        <h3 >STUDENT PORTAL</h3>
+                    <div id='header-things'>
+                        <div id='left-top-container'>
+                            <FaBars id='top-icons'></FaBars>
+                            <h3 >STUDENT PORTAL <img src="/logo_nust_png.png" alt="" id='uni-logo' /></h3>
                     
-                    </div>
+                        </div>
 
-                    <div id='right-top-container'>
-                        <FaEnvelope id='top-icons'></FaEnvelope>                        
-                        <button id='logout-btn'>Logout<MdLogout id='logout-btn-icon'></MdLogout></button>
+                        <div id='right-top-container'>
+                            <FaEnvelope id='top-icons'></FaEnvelope>                        
+                            <button id='logout-btn'>Logout<MdLogout id='logout-btn-icon'></MdLogout></button>
                     
+                        </div>
                     </div>
+                    <div id='bottom-border'>
+
+                    </div>
+       
 
                 </header>
                 

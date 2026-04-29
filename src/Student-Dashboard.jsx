@@ -57,7 +57,35 @@ function StudentDashboard(){
 
                     </aside>
 
-                    <section>
+                    <section id='content-container'>
+
+                        <div id='person-information' className='content-box'>
+                            <div id='top-banner'>
+                                <h3>Personal Information</h3>
+                            </div>
+
+                        </div>
+
+                        <div id='academic-details' className='content-box'>
+                            <div id='top-banner'>
+                                <h3>Currently registred courses</h3>
+                            </div>
+                        </div>
+
+                        
+                        <div id='registered-courses' className='content-box'>
+                            <div id='top-banner'>
+                                <h3>Financial Details</h3>
+                            </div>
+                        </div>
+
+                        <div id='financial-details' className='content-box'>
+                            <div id='top-banner'>
+                                <h3>Academic Details</h3>
+                            </div>
+                        </div>
+
+                        
 
                     </section>
                 

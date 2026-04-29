@@ -7,7 +7,7 @@
 
 
 #student-dashboard-page{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background:rgb(15, 15, 15) ;
 
@@ -146,12 +146,13 @@ header{
 
     display: grid;
     grid-template-columns: 14% 80%;
+    grid-template-rows: 1fr;
 }
 
 aside{
     background: var(--dark-theme-back);
-    
-}
+    height: 90vh;
+}   
 
 
 #btns{
@@ -232,6 +233,7 @@ aside{
 .content-box{
     background: var(--dark-theme-background);
     border-radius: 10px;
+    padding:0px 20px 20px 20px;
 }
 
 
@@ -250,10 +252,28 @@ aside{
     position: relative;
     top: -10px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-
+    
 
 }
 
 #top-banner h3{
-    font-weight: 500;
+    font-weight: 300;
+}
+
+
+#person-img{
+    width: 160px;
+}
+
+
+#person-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#person-info{
+    color: var(--dark-theme-text-2);
+
 }

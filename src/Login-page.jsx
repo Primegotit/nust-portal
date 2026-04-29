@@ -6,7 +6,7 @@ function LoginPage() {
             <div id='loginpage'>
                 <nav>
                     <img src="/logo_nust_png.png" alt="" id='nust-logo' />
-                    <h2>NATIONAL UNIVERSITY OF SCIENCE AND TECHNOLOGY</h2>
+                    <h2>University management system</h2>
                 </nav>
 
                 <div id='main-login-body'>
@@ -16,6 +16,9 @@ function LoginPage() {
                     </div>
 
                     <div id='login-container'>
+                        <div id='logo-wrapper'>
+                            <img src="/logo_nust_png.png" alt="" id='nust-logo' />
+                        </div>
 
                         <h3>STUDENTS PORTAL</h3>
                         <br />
@@ -36,7 +39,7 @@ function LoginPage() {
                     </div>
 
                     <div id='bottom-nust-banner'>
-                        <h4>2026 National University of Science and Technology</h4>
+                        <h4>2026 University management system</h4>
                     </div>
                      
                 </div>

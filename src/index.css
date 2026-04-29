@@ -1,4 +1,10 @@
 :root{
     --primary-color:rgb(105, 44, 155);
-    --secondary-color:rgb(41, 41, 133);
+    --secondary-color:rgb(250, 120, 14);
+
+    --light-theme:white;
+    --dark-theme-background:rgb(26, 26, 26);
+    --dark-theme-text:rgb(228, 228, 228);
+    --dark-theme-back:rgb(35, 35, 35);
+
 }

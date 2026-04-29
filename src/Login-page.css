@@ -39,7 +39,7 @@
 
 nav h2{
     text-align: center;
-    color: rgb(236, 236, 236);
+    color: var(--dark-theme-text);
     font-weight: 600;
     font-size: 23px;
 
@@ -65,7 +65,7 @@ nav h2{
     display: flex;
     flex-direction: column;
     justify-self: center;
-    border-bottom : 15px solid rgb(128, 15, 181) ;
+    border-bottom : 3px solid var(--secondary-color) ;
 
 }
 
@@ -120,7 +120,7 @@ nav h2{
     font-size: 17px;
     border-radius: 8px;
     font-weight: 500;
-    color: rgb(247, 247, 247);
+    color: var(--dark-theme-text);
     border: none;
     cursor: pointer;
     transition: all 0.5s;
@@ -133,7 +133,7 @@ nav h2{
 
 #bottom-nust-banner{
     visibility: hidden;
-    color: rgb(228, 228, 228);
+    color: var(--dark-theme-text);
     background-color: var(--primary-color);
     height: 50px;
     display: flex;

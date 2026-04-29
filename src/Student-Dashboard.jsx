@@ -36,6 +36,12 @@ function StudentDashboard(){
                     <aside>
                         <MyButtons icon={<FaBars id='btns-icons'></FaBars>} name="New Registration" ></MyButtons>
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
+                        <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
 
                     </aside>
 

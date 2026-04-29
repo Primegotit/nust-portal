@@ -30,7 +30,7 @@ header{
 
 #top-icons{
     font-size: 30px;
-    transition: all 0.3s;
+    transition: all 0.5s;
 
 }
 
@@ -111,7 +111,13 @@ aside{
     border-bottom: 1px solid rgb(70, 70, 70);
     border-left: none;
     border-right: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
 
+#btns:hover{
+    background: var(--dark-theme-hover-color);
+    transform: translateX(10px);
 
 }
 

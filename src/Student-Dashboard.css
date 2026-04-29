@@ -337,7 +337,7 @@ aside{
     #student-dashboard-page{
         
         display: grid;
-        grid-template-rows: 8% 92%;
+        grid-template-rows: 3% 92%;
     
     }
 

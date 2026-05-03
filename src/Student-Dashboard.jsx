@@ -69,324 +69,329 @@ const [showMore_RegisteredCourses, setShowMore_RegisteredCourses] = useState(fal
 
                     <section id='content-container'>
 
-                        <div id='person-information' className='content-box'>
-                            
-                            <div id='top-banner'>
-                                <h3>Personal Information</h3>
-                            </div>
 
-                            <div id='person-container'>
-                                    
-                                <div id='person-img'>
-                                    <img src="/me1.png" alt="" id='student-dp' />
-
+                        <div id='person-and-financial-box'>
+                            <div id='person-information' className='content-box'>
+                                
+                                <div id='top-banner'>
+                                    <h3>Personal Information</h3>
                                 </div>
-
-                                <div className='big-card-info'>
-                                    <table>
-
-                                        <tbody>
-                                            <tr>
-                                                <td id='hh1'>Name   </td>
-                                                <td id='hh1'>Promise Siafwyo</td>
-                                            </tr>
-                                            <tr >
-                                                <td id='hh2'>ID Number</td>
-                                                <td id='hh2'>{"08-9905455555"}</td>
-                                            </tr>
-
-                                            <tr >
-                                                <td id='hh1' >City</td>
-                                                <td id='hh1'>{"Bulawayo"} , {"Nkulumane"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='hh1'>Country</td>
-                                                <td id='hh1'>{"Zimbabwe"}</td>
-
-                                            </tr>
-
-
-                                            {/* */}
-{/* 
-*/}
-
-                                        {showMorePersonalDetails && (
-               
-
-                                            <>
-                                                <tr>
-                                                    <td id='hh1'>Gender</td>
-                                                    <td id='hh1'>{"Male"}</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td id='hh1'>Date of Birth</td>
-                                                    <td id='hh1'>{"05-04-2005"}</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td id='hh1'>Place of Birth</td>
-                                                    <td id='hh1'>{"Zimbabwe"}</td>
-                                                </tr> 
-                                            </>
-                                    )}
-
-                                        </tbody>
-                              
-                                    </table>
-
-                                </div>
-
-                            </div>
-
-                            <div className='show-more-content-btn'>
-                                <button  onClick={() => setShowMorePersonalDetails(!showMorePersonalDetails)} >
-                                     {showMorePersonalDetails ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
-                                </button>
-                            </div>
-
-                      
-
-                        </div>
-
-
-                        <div id='financial-details' className='content-box'>
-                            <div id='top-banner'>
-                                <h3>Academic Details</h3>
-                            </div>
-
 
                                 <div id='person-container'>
-                                    
-                        
+                                        
+                                    <div id='person-img'>
+                                        <img src="/me1.png" alt="" id='student-dp' />
 
-                                <div className='big-card-info'>
-                                    <table>
+                                    </div>
 
-                                        <tbody>
-                                            <tr>
-                                                <td id='hh1'>Student Number </td>
-                                                <td id='hh1'>N02528961Y</td>
-                                            </tr>
-                                            <tr >
-                                                <td id='hh1'>Programme</td>
-                                                <td id='hh1'>{"Computer Science"}</td>
-                                            </tr>
+                                    <div className='big-card-info'>
+                                        <table>
 
-                                            <tr >
-                                                <td id='hh1' >Current Academic Year</td>
-                                                <td id='hh1'>{"2026"}</td>
-                                            </tr>
+                                            <tbody>
+                                                <tr>
+                                                    <td id='hh1'>Name   </td>
+                                                    <td id='hh1'>Promise Siafwyo</td>
+                                                </tr>
+                                                <tr >
+                                                    <td id='hh2'>ID Number</td>
+                                                    <td id='hh2'>{"08-9905455555"}</td>
+                                                </tr>
 
-                                            <tr>
-                                                <td id='hh1'>Current Part</td>
-                                                <td id='hh1'>{"2.1"}</td>
+                                                <tr >
+                                                    <td id='hh1' >City</td>
+                                                    <td id='hh1'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                                </tr>
 
-                                            </tr>
+                                                <tr>
+                                                    <td id='hh1'>Country</td>
+                                                    <td id='hh1'>{"Zimbabwe"}</td>
+
+                                                </tr>
 
 
+                                                {/* */}
+    {/* 
+    */}
 
-                                            {showMore_FinancialDetails && (
+                                            {showMorePersonalDetails && (
+                
+
                                                 <>
                                                     <tr>
-                                                        <td id='hh1'>Current Semester</td>
-                                                        <td id='hh1'>{"1"}</td>
+                                                        <td id='hh1'>Gender</td>
+                                                        <td id='hh1'>{"Male"}</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td id='hh1'>Date of Birth</td>
+                                                        <td id='hh1'>{"05-04-2005"}</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td id='hh1'>Place of Birth</td>
+                                                        <td id='hh1'>{"Zimbabwe"}</td>
                                                     </tr> 
                                                 </>
-                                            )}
+                                        )}
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                
+                                        </table>
+
+                                    </div>
+
+                                </div>
+
+                                <div className='show-more-content-btn'>
+                                    <button  onClick={() => setShowMorePersonalDetails(!showMorePersonalDetails)} >
+                                        {showMorePersonalDetails ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
+                                    </button>
+                                </div>
+
+                        
+
+                            </div>
+
+
+                            <div id='financial-details' className='content-box'>
+                                <div id='top-banner'>
+                                    <h3>Academic Details</h3>
+                                </div>
+
+
+                                    <div id='person-container'>
+                                        
+                            
+
+                                    <div className='big-card-info'>
+                                        <table>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td id='hh1'>Student Number </td>
+                                                    <td id='hh1'>N02528961Y</td>
+                                                </tr>
+                                                <tr >
+                                                    <td id='hh1'>Programme</td>
+                                                    <td id='hh1'>{"Computer Science"}</td>
+                                                </tr>
+
+                                                <tr >
+                                                    <td id='hh1' >Current Academic Year</td>
+                                                    <td id='hh1'>{"2026"}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td id='hh1'>Current Part</td>
+                                                    <td id='hh1'>{"2.1"}</td>
+
+                                                </tr>
+
+
+
+                                                {showMore_FinancialDetails && (
+                                                    <>
+                                                        <tr>
+                                                            <td id='hh1'>Current Semester</td>
+                                                            <td id='hh1'>{"1"}</td>
+                                                        </tr> 
+                                                    </>
+                                                )}
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                </div>
+                                
+                                <div className='show-more-content-btn'>
+                                    <button  onClick={() => setShowMore_FinancialDetails(!showMore_FinancialDetails)} >
+                                        {showMore_FinancialDetails ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+             
+
+                        <div id='reg-and-academic-box'>
+                            <div id='academic-details' className='content-box'>
+                                <div id='top-banner'>
+                                    <h3>Currently registred courses</h3>
+                                </div>
+
+
+                                <div id='person-container'>
+                                        
+                                
+                                    <div className='big-card-info' id='courses-container'>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th id='hh'>Course Code</th>
+                                                    <th id='hh'>Course Name</th>
+                                                    <th id='hh'>Type</th>
+
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td id='hh1'>SCS1111</td>
+                                                    <td id='hh1'>Introduction to Computer Science</td>
+                                                    <td id='hh1'>Core</td>
+                                                </tr>
+                                                <tr >
+                                                    <td id='hh1'>SCS1112</td>
+                                                    <td id='hh1'>Data Structures and Algorithms</td>
+                                                    <td id='hh1'>Core</td>
+                                                </tr>
+
+                                                <tr >
+                                                    <td id='hh1' >SCS1113</td>
+                                                    <td id='hh1'>Software Engineering</td>
+                                                    <td id='hh1'>Core</td>
+                                                </tr>
+
+                                                {showMore_RegisteredCourses && (
+                                                    <>
+                                                        <tr>
+                                                            <td id='hh1'>SCS1114</td>
+                                                            <td id='hh1'>Database Systems</td>
+                                                            <td id='hh1'>Core</td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td id='hh1'>SCS1115</td>
+                                                            <td id='hh1'>Artificial Intelligence</td>
+                                                            <td id='hh1'>Core</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td id='hh1'>SCS1116</td>
+                                                            <td id='hh1'>Machine Learning</td>
+                                                            <td id='hh1'>Core</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td id='hh1'>SCS1117</td>
+                                                            <td id='hh1'>Web Development</td>
+                                                            <td id='hh1'>Core</td>
+
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td id='hh1'>SCS1118</td>
+                                                            <td id='hh1'>Introduction to Statistics</td>
+                                                            <td id='hh1'>Core</td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td id='hh1'>SCS2111</td>
+                                                            <td id='hh1'>Introduction to Calculus</td>
+                                                            <td id='hh1'>Core</td>
+
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td id='hh1'>SCS2112</td>
+                                                            <td id='hh1'>Introduction to Linear Algebra</td>
+                                                            <td id='hh1'>Core</td>
+
+                                                        </tr>
+                                                    </>
+                                                )}
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                </div>
+
+                                <div className='show-more-content-btn'>
+                                    <button  onClick={() => setShowMore_RegisteredCourses(!showMore_RegisteredCourses)} >
+                                        {showMore_RegisteredCourses ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            
+                            <div id='registered-courses' className='content-box'>
+                                <div id='top-banner'>
+                                    <h3>Financial Details</h3>
+                                </div>
+
+
+                                    <div id='person-container'>
+                                
+                                    <div className='big-card-info'>
+                                        <table>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td id='hh1'>Name   </td>
+                                                    <td id='hh1'>Promise Siafwyo</td>
+                                                </tr>
+                                                <tr >
+                                                    <td id='hh2'>ID Number</td>
+                                                    <td id='hh2'>{"08-9905455555"}</td>
+                                                </tr>
+
+                                                <tr >
+                                                    <td id='#labell' >City</td>
+                                                    <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td id='#labell'>Country</td>
+                                                    <td id='#labell'>{"Zimbabwe"}</td>
+
+                                                </tr>
+    {/* 
+                                                <tr>
+                                                    <td id='#labell'>Phone Number</td>
+                                                    <td id='#labell'>{"07899999999"}</td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td id='#labell'>Gender</td>
+                                                    <td id='#labell'>{"Male"}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td id='#labell'>Date of Birth</td>
+                                                    <td id='#labell'>{"05-04-2005"}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td id='#labell'>Place of Birth</td>
+                                                    <td id='#labell'>{"Zimbabwe"}</td>
+                                                </tr> */}
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+
+                                </div>
+
+                                <div className='show-more-content-btn'>
+                                    <button><FaChevronDown /></button>
 
                                 </div>
 
                             </div>
                             
-                            <div className='show-more-content-btn'>
-                                <button  onClick={() => setShowMore_FinancialDetails(!showMore_FinancialDetails)} >
-                                     {showMore_FinancialDetails ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
-                                </button>
-                            </div>
-
                         </div>
 
-                        
-
-
-                        <div id='academic-details' className='content-box'>
-                            <div id='top-banner'>
-                                <h3>Currently registred courses</h3>
-                            </div>
-
-
-                            <div id='person-container'>
-                                    
-                             
-                                <div className='big-card-info' id='courses-container'>
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th id='hh'>Course Code</th>
-                                                <th id='hh'>Course Name</th>
-                                                <th id='hh'>Type</th>
-
-                                            </tr>
-                                        </thead>
-
-                                        <tbody>
-                                            <tr>
-                                                <td id='hh1'>SCS1111</td>
-                                                <td id='hh1'>Introduction to Computer Science</td>
-                                                <td id='hh1'>Core</td>
-                                            </tr>
-                                            <tr >
-                                                <td id='hh1'>SCS1112</td>
-                                                <td id='hh1'>Data Structures and Algorithms</td>
-                                                <td id='hh1'>Core</td>
-                                            </tr>
-
-                                            <tr >
-                                                <td id='hh1' >SCS1113</td>
-                                                <td id='hh1'>Software Engineering</td>
-                                                <td id='hh1'>Core</td>
-                                            </tr>
-
-                                            {showMore_RegisteredCourses && (
-                                                <>
-                                                    <tr>
-                                                        <td id='hh1'>SCS1114</td>
-                                                        <td id='hh1'>Database Systems</td>
-                                                        <td id='hh1'>Core</td>
-                                                    </tr>
-
-
-                                                    <tr>
-                                                        <td id='hh1'>SCS1115</td>
-                                                        <td id='hh1'>Artificial Intelligence</td>
-                                                        <td id='hh1'>Core</td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td id='hh1'>SCS1116</td>
-                                                        <td id='hh1'>Machine Learning</td>
-                                                        <td id='hh1'>Core</td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td id='hh1'>SCS1117</td>
-                                                        <td id='hh1'>Web Development</td>
-                                                        <td id='hh1'>Core</td>
-
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td id='hh1'>SCS1118</td>
-                                                        <td id='hh1'>Introduction to Statistics</td>
-                                                        <td id='hh1'>Core</td>
-
-                                                    </tr>
-
-
-                                                    <tr>
-                                                        <td id='hh1'>SCS2111</td>
-                                                        <td id='hh1'>Introduction to Calculus</td>
-                                                        <td id='hh1'>Core</td>
-
-                                                    </tr>
-
-
-                                                    <tr>
-                                                        <td id='hh1'>SCS2112</td>
-                                                        <td id='hh1'>Introduction to Linear Algebra</td>
-                                                        <td id='hh1'>Core</td>
-
-                                                    </tr>
-                                                </>
-                                            )}
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-
-                            </div>
-
-                            <div className='show-more-content-btn'>
-                                <button  onClick={() => setShowMore_RegisteredCourses(!showMore_RegisteredCourses)} >
-                                     {showMore_RegisteredCourses ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
-                                </button>
-                            </div>
-
-                        </div>
-
-                        
-                        <div id='registered-courses' className='content-box'>
-                            <div id='top-banner'>
-                                <h3>Financial Details</h3>
-                            </div>
-
-
-                                <div id='person-container'>
-                              
-                                <div className='big-card-info'>
-                                    <table>
-
-                                        <tbody>
-                                            <tr>
-                                                <td id='hh1'>Name   </td>
-                                                <td id='hh1'>Promise Siafwyo</td>
-                                            </tr>
-                                            <tr >
-                                                <td id='hh2'>ID Number</td>
-                                                <td id='hh2'>{"08-9905455555"}</td>
-                                            </tr>
-
-                                            <tr >
-                                                <td id='#labell' >City</td>
-                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Country</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
-
-                                            </tr>
-{/* 
-                                            <tr>
-                                                <td id='#labell'>Phone Number</td>
-                                                <td id='#labell'>{"07899999999"}</td>
-                                            </tr>
-
-
-                                            <tr>
-                                                <td id='#labell'>Gender</td>
-                                                <td id='#labell'>{"Male"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Date of Birth</td>
-                                                <td id='#labell'>{"05-04-2005"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Place of Birth</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
-                                            </tr> */}
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-
-                            </div>
-
-                            <div className='show-more-content-btn'>
-                                <button><FaChevronDown /></button>
-
-                            </div>
-
-                        </div>
 
                     </section>
                 

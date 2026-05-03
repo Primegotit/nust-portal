@@ -142,14 +142,12 @@ header{
 }
 
 #main-content{
-
+    /* overflow: hidden; */
     display: grid;
     grid-template-columns: 14% 80%;
-    grid-template-rows: 1fr;
     gap: 20px;
     height: fit-content;
     background: var(--dark-theme-student-dashboard-background) ;
-    
 }
 
 aside{
@@ -224,19 +222,34 @@ aside{
 
 
 #content-container{
-    
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 30px;
-    gap: 50px 50px ;
-    width: auto;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-self: center;
+    gap: 70px;
 }
+
+#person-and-financial-box{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+#reg-and-academic-box{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+    
+}
+
 
 
 .content-box{
     background: var(--dark-theme-background);
     border-radius: 10px;
     height: max-content;
+    width: 39vw;
 }
 
 

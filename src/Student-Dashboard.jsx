@@ -99,11 +99,11 @@ function StudentDashboard(){
                                             </tr>
 
 
-                                            <tr>
+                                            {/* <tr>
                                                 <td id='hh1'>Phone Number</td>
                                                 <td id='hh1'>{"07899999999"}</td>
-                                            </tr>
-
+                                            </tr> */}
+{/* 
                                             <tr>
                                                 <td id='hh1'>Gender</td>
                                                 <td id='hh1'>{"Male"}</td>
@@ -117,7 +117,7 @@ function StudentDashboard(){
                                             <tr>
                                                 <td id='hh1'>Place of Birth</td>
                                                 <td id='hh1'>{"Zimbabwe"}</td>
-                                            </tr>
+                                            </tr> */}
 
                                         </tbody>
                                     </table>
@@ -126,7 +126,68 @@ function StudentDashboard(){
 
                             </div>
 
+                            <div className='show-more-content-btn'>
+                                <button>Show More</button>
+                            </div>
+
                         </div>
+
+
+                        <div id='financial-details' className='content-box'>
+                            <div id='top-banner'>
+                                <h3>Academic Details</h3>
+                            </div>
+
+
+                                <div id='person-container'>
+                                    
+                        
+
+                                <div className='big-card-info'>
+                                    <table>
+
+                                        <tbody>
+                                            <tr>
+                                                <td id='hh1'>Student Number </td>
+                                                <td id='hh1'>N02528961Y</td>
+                                            </tr>
+                                            <tr >
+                                                <td id='hh1'>Programme</td>
+                                                <td id='hh1'>{"Computer Science"}</td>
+                                            </tr>
+
+                                            <tr >
+                                                <td id='hh1' >Current Academic Year</td>
+                                                <td id='hh1'>{"2026"}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td id='hh1'>Current Part</td>
+                                                <td id='hh1'>{"2.1"}</td>
+
+                                            </tr>
+
+
+                                            <tr>
+                                                <td id='hh1'>Current Semester</td>
+                                                <td id='hh1'>{"1"}</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+                            </div>
+                            
+                            <div className='show-more-content-btn'>
+                                <button>Show More</button>
+                            </div>
+
+                        </div>
+
+                        
+
 
                         <div id='academic-details' className='content-box'>
                             <div id='top-banner'>
@@ -222,6 +283,10 @@ function StudentDashboard(){
 
                             </div>
 
+                            <div className='show-more-content-btn'>
+                                <button>Show More</button>
+                            </div>
+
                         </div>
 
                         
@@ -286,75 +351,6 @@ function StudentDashboard(){
                             </div>
 
                         </div>
-
-                        <div id='financial-details' className='content-box'>
-                            <div id='top-banner'>
-                                <h3>Academic Details</h3>
-                            </div>
-
-
-                                       <div id='person-container'>
-                                    
-                                <div id='person-img'>
-                                    <img src="/me1.png" alt="" id='student-dp' />
-
-                                </div>
-
-                                <div className='big-card-info'>
-                                    <table>
-
-                                        <tbody>
-                                            <tr>
-                                                <td id='hh1'>Name   </td>
-                                                <td id='hh1'>Promise Siafwyo</td>
-                                            </tr>
-                                            <tr >
-                                                <td id='hh2'>ID Number</td>
-                                                <td id='hh2'>{"08-9905455555"}</td>
-                                            </tr>
-
-                                            <tr >
-                                                <td id='#labell' >City</td>
-                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Country</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
-
-                                            </tr>
-
-
-                                            <tr>
-                                                <td id='#labell'>Phone Number</td>
-                                                <td id='#labell'>{"07899999999"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Gender</td>
-                                                <td id='#labell'>{"Male"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Date of Birth</td>
-                                                <td id='#labell'>{"05-04-2005"}</td>
-                                            </tr>
-
-                                            <tr>
-                                                <td id='#labell'>Place of Birth</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        
 
                     </section>
                 

@@ -264,9 +264,11 @@ aside{
 
 
 #person-img{
-    width: 200px;
     border-radius: 100%;
     overflow: hidden;
+    width: 30%;
+    width: clamp(70px, 50%, 140px);
+
 }
 
 
@@ -285,7 +287,8 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-height: 350px;
+    height: 200px;
+    /* max-height: 450px; */
 }
 
 .big-card-info table{
@@ -359,10 +362,32 @@ aside{
 }
 
 #courses-container table tbody tr:hover{
-    background: var(--dark-theme-hover-color););
+    background: var(--dark-theme-hover-color);
 
 }
 
+
+.show-more-content-btn{
+    height: 20px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    position: relative;
+    bottom: -10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+}
+.show-more-content-btn button{
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: var(--primary-color);
+    color: white;
+    width: 100%;
+
+
+}
 
 @media (max-width: 768px) {
 

@@ -188,7 +188,7 @@ function AdminForm() {
                             </div>
          
                                 <button id='search-btn'>Search 
-                                    <FiSearch></FiSearch>
+                                    <FiSearch fontSize={20}></FiSearch>
 
                                 </button>
 

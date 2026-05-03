@@ -21,6 +21,7 @@ function MyButtons(MyContent){
 function StudentDashboard(){
 const [showMorePersonalDetails, setShowMorePersonalDetails] = useState(false);
 const [showMore_FinancialDetails, setShowMore_FinancialDetails] = useState(false);
+const [showMore_RegisteredCourses, setShowMore_RegisteredCourses] = useState(false);
 
     return(
         <>
@@ -250,55 +251,59 @@ const [showMore_FinancialDetails, setShowMore_FinancialDetails] = useState(false
                                                 <td id='hh1'>Software Engineering</td>
                                                 <td id='hh1'>Core</td>
                                             </tr>
-{/* 
-                                            <tr>
-                                                <td id='hh1'>SCS1114</td>
-                                                <td id='hh1'>Database Systems</td>
-                                                <td id='hh1'>Core</td>
-                                            </tr>
+
+                                            {showMore_RegisteredCourses && (
+                                                <>
+                                                    <tr>
+                                                        <td id='hh1'>SCS1114</td>
+                                                        <td id='hh1'>Database Systems</td>
+                                                        <td id='hh1'>Core</td>
+                                                    </tr>
 
 
-                                            <tr>
-                                                <td id='hh1'>SCS1115</td>
-                                                <td id='hh1'>Artificial Intelligence</td>
-                                                <td id='hh1'>Core</td>
-                                            </tr>
+                                                    <tr>
+                                                        <td id='hh1'>SCS1115</td>
+                                                        <td id='hh1'>Artificial Intelligence</td>
+                                                        <td id='hh1'>Core</td>
+                                                    </tr>
 
-                                            <tr>
-                                                <td id='hh1'>SCS1116</td>
-                                                <td id='hh1'>Machine Learning</td>
-                                                <td id='hh1'>Core</td>
-                                            </tr>
+                                                    <tr>
+                                                        <td id='hh1'>SCS1116</td>
+                                                        <td id='hh1'>Machine Learning</td>
+                                                        <td id='hh1'>Core</td>
+                                                    </tr>
 
-                                            <tr>
-                                                <td id='hh1'>SCS1117</td>
-                                                <td id='hh1'>Web Development</td>
-                                                <td id='hh1'>Core</td>
+                                                    <tr>
+                                                        <td id='hh1'>SCS1117</td>
+                                                        <td id='hh1'>Web Development</td>
+                                                        <td id='hh1'>Core</td>
 
-                                            </tr>
+                                                    </tr>
 
-                                            <tr>
-                                                <td id='hh1'>SCS1118</td>
-                                                <td id='hh1'>Introduction to Statistics</td>
-                                                <td id='hh1'>Core</td>
+                                                    <tr>
+                                                        <td id='hh1'>SCS1118</td>
+                                                        <td id='hh1'>Introduction to Statistics</td>
+                                                        <td id='hh1'>Core</td>
 
-                                            </tr>
-
-
-                                              <tr>
-                                                <td id='hh1'>SCS2111</td>
-                                                <td id='hh1'>Introduction to Calculus</td>
-                                                <td id='hh1'>Core</td>
-
-                                            </tr>
+                                                    </tr>
 
 
-                                              <tr>
-                                                <td id='hh1'>SCS2112</td>
-                                                <td id='hh1'>Introduction to Linear Algebra</td>
-                                                <td id='hh1'>Core</td>
+                                                    <tr>
+                                                        <td id='hh1'>SCS2111</td>
+                                                        <td id='hh1'>Introduction to Calculus</td>
+                                                        <td id='hh1'>Core</td>
 
-                                            </tr> */}
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td id='hh1'>SCS2112</td>
+                                                        <td id='hh1'>Introduction to Linear Algebra</td>
+                                                        <td id='hh1'>Core</td>
+
+                                                    </tr>
+                                                </>
+                                            )}
 
                                         </tbody>
                                     </table>
@@ -308,8 +313,9 @@ const [showMore_FinancialDetails, setShowMore_FinancialDetails] = useState(false
                             </div>
 
                             <div className='show-more-content-btn'>
-                                <button><FaChevronDown /></button>
-
+                                <button  onClick={() => setShowMore_RegisteredCourses(!showMore_RegisteredCourses)} >
+                                     {showMore_RegisteredCourses ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
+                                </button>
                             </div>
 
                         </div>

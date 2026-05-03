@@ -292,7 +292,7 @@ aside{
     flex-direction: column;
     gap: 10px;
     min-height: 200px;
-    max-height: 450px;
+    max-height: fit-content;
 
 
 }
@@ -366,7 +366,6 @@ aside{
 }
 
 #courses-container{
-    overflow: auto;
     width: 100%;
 
 }

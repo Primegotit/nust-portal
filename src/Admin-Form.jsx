@@ -1,6 +1,8 @@
 import './Admin-Form.css';
 import { FaEnvelope } from "react-icons/fa";  
 import { FiSearch } from "react-icons/fi";
+import { MdLogout } from "react-icons/md";
+
 function AdminForm() {
     return (
         <div id='Admin-form-page'>
@@ -24,7 +26,7 @@ function AdminForm() {
 
                     <form action="" id='Student-personal-details'>
                         <div id='personal-heading'>
-                            <h2>Personal Details</h2>
+                            <h2>Personal Details <MdLogout></MdLogout></h2>
                         </div>
 
                         <div id='input-field-container'>
@@ -94,7 +96,7 @@ function AdminForm() {
 
                     <form action="" id='student-enrollment-information'>
                         <div id='personal-heading'>
-                            <h2>Enrollment Information</h2>
+                            <h2>Enrollment Information <MdLogout></MdLogout></h2>
                         </div>
                         <div id='input-field-container'>
                                       
@@ -123,15 +125,16 @@ function AdminForm() {
 
                         <div className='input-field'>
                             <label htmlFor="">Auto Generate Student Number</label>
-                            <input type="text" placeholder='Student Number will be generated automatically' readOnly/>
-                            <input type="submit" value={"Generate Student ID"} />
+                            <input type="text" placeholder='Student Number will be generated automatically' readOnly/><br />
+                            <button>Generate Password</button>
+
                         </div>
 
                         
                         <div className='input-field'>
                             <label htmlFor="">Auto Generate Password for Portal</label>
-                            <input type="text" placeholder='Password will be generated automatically' readOnly/>
-                            <input type="submit" value={"Generate Password"} />
+                            <input type="text" placeholder='Password will be generated automatically' readOnly/><br />
+                            <button>Generate Password</button>
                         
                         </div>
 

@@ -96,6 +96,9 @@
     font-weight: 500;
     font-size: 20px;
     color: var(--dark-theme-text-2);
+    display: flex;
+    align-items: center;
+    gap:20px;
 }
 
 
@@ -130,7 +133,18 @@
 .input-field{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
+}
+
+
+.input-field button{
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    background: rgb(5, 121, 166);
+    max-width: 200px;
+    height: 40px;
 }
 
 input{
@@ -235,9 +249,7 @@ select option{
 }
 
 #search-btn{
-    background: rgb(5, 121, 166);
-    width: 200px;
-    height: 40px;
+
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -248,6 +260,9 @@ select option{
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 500;
+    background: rgb(5, 121, 166);
+    width: 200px;
+    height: 40px;
 
 }
 

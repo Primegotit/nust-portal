@@ -62,7 +62,7 @@ function StudentDashboard(){
                         <div id='person-information' className='content-box'>
                             
                             <div id='top-banner'>
-                                <h3>Personal Information about</h3>
+                                <h3>Personal Information</h3>
                             </div>
 
                             <div id='person-container'>

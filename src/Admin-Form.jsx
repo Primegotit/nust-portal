@@ -1,5 +1,5 @@
 import './Admin-Form.css';
-
+import { FaEnvelope } from "react-icons/fa";  
 
 function AdminForm() {
     return (
@@ -15,9 +15,12 @@ function AdminForm() {
                 <div id='bottom-border'></div>
             </nav>
 
-
+        <div id='input-form-container-header'>
+            <h2>Student Management <FaEnvelope></FaEnvelope>  </h2>
+        </div>
             <main>
                 <section id='input-form-container'>
+                 
                     <form action="" id='Student-personal-details'>
                         <div className='input-field'>
                             <label htmlFor="">National ID</label>
@@ -51,6 +54,11 @@ function AdminForm() {
                             <input type="date"  />
                         </div>
 
+                         <div className='input-field'>
+                            <label htmlFor="">Country</label>
+                            <input type="text" placeholder='Enter your Country' />
+                        </div>
+
                         <div className='input-field'>
                             <label htmlFor="">City</label>
                             <input type="text" placeholder='Enter your City' />
@@ -68,7 +76,10 @@ function AdminForm() {
                             <input type="tel" placeholder='Enter your Phone Number' />
                         </div>
 
-
+                        <div className='input-field'>
+                            <label htmlFor="">Email</label>
+                            <input type="email" placeholder='Enter your Email' />
+                        </div>
 
                     </form>
 
@@ -93,14 +104,59 @@ function AdminForm() {
                                 <option value="phd">Bachelor's Degree in Informatics</option>
                                 <option value="phd">Bachelor's Degree in Physics</option>
 
-
                             </select>
                         </div>
 
+                        <div className='input-field'>
+                            <label htmlFor="">Auto Generate Student Number</label>
+                            <input type="text" placeholder='Student Number will be generated automatically' readOnly/>
+                            <input type="submit" value={"Generate Student ID"} />
+                        </div>
+
+                        
+                        <div className='input-field'>
+                            <label htmlFor="">Auto Generate Password for Portal</label>
+                            <input type="text" placeholder='Password will be generated automatically' readOnly/>
+                            <input type="submit" value={"Generate Password"} />
+                        
+                        </div>
+
+
+
                     </form>
                 </section>
-                <section id='information-table'>
 
+
+
+                <section id='information-table-container'>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>{"National ID"}</th>
+                                <th>{"First Name"}</th>
+                                <th>{"Middle Name"}</th>
+                                <th>{"Last Name"}</th>
+                                <th>{"Gender"}</th>
+                                <th>{"DOB"}</th>
+                                <th>{"Country"}</th>
+                                <th>{"City"}</th>
+                                <th>{"Address"}</th>
+                                <th>{"Phone Number"}</th>
+                                <th>{"Email"}</th>
+                                <th>{"Department"}</th> 
+                                <th>{"Degree"}</th> 
+                                <th>{"Student ID"}</th>
+                                <th>{"Password"}</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+
+                            </tr>
+                        </tbody>
+
+                    </table>
                 </section>
             </main>
         </div>

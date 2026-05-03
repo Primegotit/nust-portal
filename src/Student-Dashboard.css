@@ -7,10 +7,9 @@
 
 
 #student-dashboard-page{
-    height: max-content;
+    height: 100vh;
     width: 100%;
     background:rgb(15, 15, 15) ;
-
     display: grid;
     grid-template-rows: 10% 90%;
     
@@ -147,6 +146,10 @@ header{
     display: grid;
     grid-template-columns: 14% 80%;
     grid-template-rows: 1fr;
+    gap: 20px;
+    height: fit-content;
+    background: var(--dark-theme-student-dashboard-background) ;
+;
 }
 
 aside{
@@ -304,7 +307,7 @@ aside{
 }
 
 .big-card-info table tr{
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: all 0.4s;
 }
 
@@ -390,7 +393,7 @@ aside{
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
-
+    cursor: pointer;
     border-top: 1px solid rgb(67, 67, 67);
     transition: all 0.4s;
     background: var(--dark-theme-background);

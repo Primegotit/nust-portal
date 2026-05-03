@@ -325,12 +325,12 @@ function StudentDashboard(){
 
                                             </tr>
 
-
                                             <tr>
                                                 <td id='#labell'>Phone Number</td>
                                                 <td id='#labell'>{"07899999999"}</td>
                                             </tr>
 
+{/* 
                                             <tr>
                                                 <td id='#labell'>Gender</td>
                                                 <td id='#labell'>{"Male"}</td>
@@ -344,7 +344,7 @@ function StudentDashboard(){
                                             <tr>
                                                 <td id='#labell'>Place of Birth</td>
                                                 <td id='#labell'>{"Zimbabwe"}</td>
-                                            </tr>
+                                            </tr> */}
 
                                         </tbody>
                                     </table>

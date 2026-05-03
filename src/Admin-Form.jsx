@@ -33,21 +33,21 @@ function AdminForm() {
 
                             <div className='input-field'>
                                 <label htmlFor="">National ID</label>
-                                <input type="text" placeholder='Enter your National-ID' />
+                                <input type="text" placeholder='National ID' />
                             </div>                        
                             <div className='input-field'>
                                 <label htmlFor="">First Name</label>
-                                <input type="text" placeholder='Enter your First Name' />
+                                <input type="text" placeholder='First Name' />
                             </div>
 
                             <div className='input-field'>
                                 <label htmlFor="">Middle Name</label>
-                                <input type="text" placeholder='Enter your Middle Name' />
+                                <input type="text" placeholder='(Optional)' />
                             </div>
 
                             <div className='input-field'>
                                 <label htmlFor="">Last Name</label>
-                                <input type="text" placeholder='Enter your Last Name' />
+                                <input type="text" placeholder='Last Name' />
                             </div>
 
                             <div className='input-field'>
@@ -65,29 +65,29 @@ function AdminForm() {
 
                             <div className='input-field'>
                                 <label htmlFor="">Country</label>
-                                <input type="text" placeholder='Enter your Country' />
+                                <input type="text" placeholder='Country' />
                             </div>
 
                             <div className='input-field'>
                                 <label htmlFor="">City</label>
-                                <input type="text" placeholder='Enter your City' />
+                                <input type="text" placeholder='City' />
                             </div>
 
 
                             
                             <div className='input-field'>
                                 <label htmlFor="">Address</label>
-                                <input type="text" placeholder='Enter your Address' />
+                                <input type="text" placeholder='Address' />
                             </div>
 
                             <div className='input-field'>
                                 <label htmlFor="">Phone Number</label>
-                                <input type="tel" placeholder='Enter your Phone Number' />
+                                <input type="tel" placeholder='Phone Number' />
                             </div>
 
                             <div className='input-field'>
                                 <label htmlFor="">Email</label>
-                                <input type="email" placeholder='Enter your Email' />
+                                <input type="email" placeholder='Email' />
                             </div>
 
                         </div>

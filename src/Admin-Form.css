@@ -19,7 +19,7 @@
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
-    background: var(--dark-theme-back);
+    background: var(--dark-theme-background);
 }
 
 #Admin-form-page nav h2{
@@ -145,6 +145,11 @@
     background: rgb(5, 121, 166);
     max-width: 200px;
     height: 40px;
+}
+
+.input-field button:hover{
+    scale: 1.06;
+
 }
 
 input{

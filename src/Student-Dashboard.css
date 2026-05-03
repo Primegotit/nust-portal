@@ -280,53 +280,87 @@ aside{
     gap: 20px;
 }
 
-#person-info{
+.big-card-info{
     color: var(--dark-theme-text-2);
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-height: 350px;
 }
 
-#person-info table{
+.big-card-info table{
     border-collapse: collapse;
 }
 
 
 
-#person-info table td{
+.big-card-info table td{
     padding: 10px 10px 10px 7px ;
-    border-bottom: 1px solid rgb(118, 118, 118);
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 2px solid rgb(67, 67, 67);
 
 
 }
 
-#person-info table tr{
+.big-card-info table tr{
     cursor: pointer;
     transition: all 0.4s;
 }
 
-#person-info table tr:hover{
+/* .big-card-info table tr:hover{
     transform: translateX(10px);
 }
+ */
 
 
-
-#person-info #hh1{
-    font-size: clamp(0.8rem, 2.5vw, 1.13rem);
-    font-weight: 400;
+.big-card-info #hh1{
+    font-size: clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 200;
 }
 
 
 
-#person-info #hh2{
-    font-size: clamp(0.8rem, 2.5vw, 1.03rem);
-    font-weight: 400;
+.big-card-info #hh2{
+    font-size: clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 200;
 }
 
-#person-info #labell{
-    font-size: clamp(0.8rem, 2.5vw, 1.03rem);
-    font-weight: 300;
+.big-card-info #labell{
+    font-size: clamp(0.8rem, 2.5vw, 1.0rem);
+    font-weight: 200;
+}
+
+
+#courses-container{
+    overflow: auto;
+    width: 100%;
+
+}
+
+#courses-container table thead{
+    background: var(--dark-theme-back);
+}
+
+#courses-container table thead th{
+    padding-top: 10px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    padding-bottom: 10px ;
+    text-align: left;
+    border: 1px solid rgb(67, 67, 67);
+
+}
+
+
+#courses-container table tbody #hh1{
+    border: 1px solid rgb(67, 67, 67);
+    transition: all 0.4s;
+
+
+}
+
+#courses-container table tbody tr:hover{
+    background: var(--dark-theme-hover-color););
+
 }
 
 

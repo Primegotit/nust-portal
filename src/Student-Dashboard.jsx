@@ -2,6 +2,7 @@ import './Student-Dashboard.css'
 import { FaBars } from "react-icons/fa";   
 import { MdLogout } from "react-icons/md";
 import { FaEnvelope } from "react-icons/fa";  
+
 function MyButtons(MyContent){
     return(
         <>
@@ -49,6 +50,7 @@ function StudentDashboard(){
 
                         </div>
                         <MyButtons icon={<FaBars id='btns-icons'></FaBars>} name="Portal Dashboard" ></MyButtons>
+
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="New Registration" ></MyButtons>
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Payments History" ></MyButtons>
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Continous Assessement" ></MyButtons>
@@ -72,7 +74,7 @@ function StudentDashboard(){
 
                                 </div>
 
-                                <div id='person-info'>
+                                <div className='big-card-info'>
                                     <table>
 
                                         <tbody>
@@ -86,35 +88,35 @@ function StudentDashboard(){
                                             </tr>
 
                                             <tr >
-                                                <td id='#labell' >City</td>
-                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                                <td id='hh1' >City</td>
+                                                <td id='hh1'>{"Bulawayo"} , {"Nkulumane"}</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Country</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                                <td id='hh1'>Country</td>
+                                                <td id='hh1'>{"Zimbabwe"}</td>
 
                                             </tr>
 
 
                                             <tr>
-                                                <td id='#labell'>Phone Number</td>
-                                                <td id='#labell'>{"07899999999"}</td>
+                                                <td id='hh1'>Phone Number</td>
+                                                <td id='hh1'>{"07899999999"}</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Gender</td>
-                                                <td id='#labell'>{"Male"}</td>
+                                                <td id='hh1'>Gender</td>
+                                                <td id='hh1'>{"Male"}</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Date of Birth</td>
-                                                <td id='#labell'>{"05-04-2005"}</td>
+                                                <td id='hh1'>Date of Birth</td>
+                                                <td id='hh1'>{"05-04-2005"}</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Place of Birth</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                                <td id='hh1'>Place of Birth</td>
+                                                <td id='hh1'>{"Zimbabwe"}</td>
                                             </tr>
 
                                         </tbody>
@@ -134,54 +136,83 @@ function StudentDashboard(){
 
                             <div id='person-container'>
                                     
-                                <div id='person-img'>
-                                    <img src="/me1.png" alt="" id='student-dp' />
-
-                                </div>
-
-                                <div id='person-info'>
+                             
+                                <div className='big-card-info' id='courses-container'>
                                     <table>
+                                        <thead>
+                                            <tr>
+                                                <th id='hh'>Course Code</th>
+                                                <th id='hh'>Course Name</th>
+                                                <th id='hh'>Type</th>
+
+                                            </tr>
+                                        </thead>
 
                                         <tbody>
                                             <tr>
-                                                <td id='hh1'>Name   </td>
-                                                <td id='hh1'>Promise Siafwyo</td>
+                                                <td id='hh1'>SCS1111</td>
+                                                <td id='hh1'>Introduction to Computer Science</td>
+                                                <td id='hh1'>Core</td>
                                             </tr>
                                             <tr >
-                                                <td id='hh2'>ID Number</td>
-                                                <td id='hh2'>{"08-9905455555"}</td>
+                                                <td id='hh1'>SCS1112</td>
+                                                <td id='hh1'>Data Structures and Algorithms</td>
+                                                <td id='hh1'>Core</td>
                                             </tr>
 
                                             <tr >
-                                                <td id='#labell' >City</td>
-                                                <td id='#labell'>{"Bulawayo"} , {"Nkulumane"}</td>
+                                                <td id='hh1' >SCS1113</td>
+                                                <td id='hh1'>Software Engineering</td>
+                                                <td id='hh1'>Core</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Country</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
-
+                                                <td id='hh1'>SCS1114</td>
+                                                <td id='hh1'>Database Systems</td>
+                                                <td id='hh1'>Core</td>
                                             </tr>
 
 
                                             <tr>
-                                                <td id='#labell'>Phone Number</td>
-                                                <td id='#labell'>{"07899999999"}</td>
+                                                <td id='hh1'>SCS1115</td>
+                                                <td id='hh1'>Artificial Intelligence</td>
+                                                <td id='hh1'>Core</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Gender</td>
-                                                <td id='#labell'>{"Male"}</td>
+                                                <td id='hh1'>SCS1116</td>
+                                                <td id='hh1'>Machine Learning</td>
+                                                <td id='hh1'>Core</td>
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Date of Birth</td>
-                                                <td id='#labell'>{"05-04-2005"}</td>
+                                                <td id='hh1'>SCS1117</td>
+                                                <td id='hh1'>Web Development</td>
+                                                <td id='hh1'>Core</td>
+
                                             </tr>
 
                                             <tr>
-                                                <td id='#labell'>Place of Birth</td>
-                                                <td id='#labell'>{"Zimbabwe"}</td>
+                                                <td id='hh1'>SCS1118</td>
+                                                <td id='hh1'>Introduction to Statistics</td>
+                                                <td id='hh1'>Core</td>
+
+                                            </tr>
+
+
+                                              <tr>
+                                                <td id='hh1'>SCS2111</td>
+                                                <td id='hh1'>Introduction to Calculus</td>
+                                                <td id='hh1'>Core</td>
+
+                                            </tr>
+
+
+                                              <tr>
+                                                <td id='hh1'>SCS2112</td>
+                                                <td id='hh1'>Introduction to Linear Algebra</td>
+                                                <td id='hh1'>Core</td>
+
                                             </tr>
 
                                         </tbody>
@@ -200,14 +231,9 @@ function StudentDashboard(){
                             </div>
 
 
-                                       <div id='person-container'>
-                                    
-                                <div id='person-img'>
-                                    <img src="/me1.png" alt="" id='student-dp' />
-
-                                </div>
-
-                                <div id='person-info'>
+                                <div id='person-container'>
+                              
+                                <div className='big-card-info'>
                                     <table>
 
                                         <tbody>
@@ -274,7 +300,7 @@ function StudentDashboard(){
 
                                 </div>
 
-                                <div id='person-info'>
+                                <div className='big-card-info'>
                                     <table>
 
                                         <tbody>

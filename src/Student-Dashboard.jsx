@@ -2,6 +2,7 @@ import './Student-Dashboard.css'
 import { FaBars } from "react-icons/fa";   
 import { MdLogout } from "react-icons/md";
 import { FaEnvelope } from "react-icons/fa";  
+import { FaChevronDown } from "react-icons/fa";
 
 function MyButtons(MyContent){
     return(
@@ -127,7 +128,7 @@ function StudentDashboard(){
                             </div>
 
                             <div className='show-more-content-btn'>
-                                <button>Show More</button>
+                                <button><FaChevronDown /></button>
                             </div>
 
                         </div>
@@ -181,7 +182,8 @@ function StudentDashboard(){
                             </div>
                             
                             <div className='show-more-content-btn'>
-                                <button>Show More</button>
+                                <button><FaChevronDown /></button>
+
                             </div>
 
                         </div>
@@ -284,7 +286,8 @@ function StudentDashboard(){
                             </div>
 
                             <div className='show-more-content-btn'>
-                                <button>Show More</button>
+                                <button><FaChevronDown /></button>
+
                             </div>
 
                         </div>
@@ -347,6 +350,11 @@ function StudentDashboard(){
                                     </table>
 
                                 </div>
+
+                            </div>
+
+                            <div className='show-more-content-btn'>
+                                <button><FaChevronDown /></button>
 
                             </div>
 

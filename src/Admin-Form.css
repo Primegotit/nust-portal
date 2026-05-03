@@ -182,9 +182,13 @@ select option{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width:50%;
+    width:55%;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    background: var(--dark-theme-background);
+    border-radius: 8px;
 }
 
 #button-container form h2{
@@ -207,6 +211,7 @@ select option{
     border: none;
     cursor: pointer;
     transition: all 0.3s;
+    font-weight: 500;
 }
 
 #button-container form input:hover{
@@ -219,6 +224,10 @@ select option{
     gap:20px;
     width: 40%;
     justify-content: center;
+
+        background: var(--dark-theme-background);
+    border-radius: 8px;
+    padding: 20px;
 
 }
 

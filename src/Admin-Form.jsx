@@ -182,7 +182,7 @@ function AdminForm() {
                                   
                                 <span>
                                     <label htmlFor="">Search for </label>
-                                    <input  type="text" placeholder='Password will be generated automatically' readOnly/>
+                                    <input  type="text" placeholder='Password will be generated automatically' />
                                
                                 </span>
                             </div>

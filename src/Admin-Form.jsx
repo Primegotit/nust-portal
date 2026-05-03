@@ -1,12 +1,12 @@
 import './Admin-Form.css';
 import { FaEnvelope } from "react-icons/fa";  
-
+import { FiSearch } from "react-icons/fi";
 function AdminForm() {
     return (
         <div id='Admin-form-page'>
             <nav>
 
-                <div style={{display:'flex', alignItems:'center', gap:'20PX', padding:'4px 20px'}}>
+                <div style={{display:'flex', alignItems:'center', gap:'20px', padding:'4px 20px'}}>
                     <h2>Admin Form</h2>
                     <img src="/logo_nust_png.png" alt="" id='nust-logo'  />
        
@@ -19,71 +19,85 @@ function AdminForm() {
             <h2>Student Management <FaEnvelope></FaEnvelope>  </h2>
         </div>
             <main>
+
                 <section id='input-form-container'>
-                 
+
                     <form action="" id='Student-personal-details'>
-                        <div className='input-field'>
-                            <label htmlFor="">National ID</label>
-                            <input type="text" placeholder='Enter your National-ID' />
-                        </div>                        
-                        <div className='input-field'>
-                            <label htmlFor="">First Name</label>
-                            <input type="text" placeholder='Enter your First Name' />
+                        <div id='personal-heading'>
+                            <h2>Personal Details</h2>
                         </div>
 
-                        <div className='input-field'>
-                            <label htmlFor="">Middle Name</label>
-                            <input type="text" placeholder='Enter your Middle Name' />
+                        <div id='input-field-container'>
+
+                            <div className='input-field'>
+                                <label htmlFor="">National ID</label>
+                                <input type="text" placeholder='Enter your National-ID' />
+                            </div>                        
+                            <div className='input-field'>
+                                <label htmlFor="">First Name</label>
+                                <input type="text" placeholder='Enter your First Name' />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">Middle Name</label>
+                                <input type="text" placeholder='Enter your Middle Name' />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">Last Name</label>
+                                <input type="text" placeholder='Enter your Last Name' />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">Gender</label>
+                                <select name="gender" id="gender" >
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">DOB</label>
+                                <input type="date"  />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">Country</label>
+                                <input type="text" placeholder='Enter your Country' />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">City</label>
+                                <input type="text" placeholder='Enter your City' />
+                            </div>
+
+
+                            
+                            <div className='input-field'>
+                                <label htmlFor="">Address</label>
+                                <input type="text" placeholder='Enter your Address' />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">Phone Number</label>
+                                <input type="tel" placeholder='Enter your Phone Number' />
+                            </div>
+
+                            <div className='input-field'>
+                                <label htmlFor="">Email</label>
+                                <input type="email" placeholder='Enter your Email' />
+                            </div>
+
                         </div>
-
-                        <div className='input-field'>
-                            <label htmlFor="">Last Name</label>
-                            <input type="text" placeholder='Enter your Last Name' />
-                        </div>
-
-                        <div className='input-field'>
-                            <label htmlFor="">Gender</label>
-                            <select name="gender" id="gender" >
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
-                            </select>
-                        </div>
-
-                        <div className='input-field'>
-                            <label htmlFor="">DOB</label>
-                            <input type="date"  />
-                        </div>
-
-                         <div className='input-field'>
-                            <label htmlFor="">Country</label>
-                            <input type="text" placeholder='Enter your Country' />
-                        </div>
-
-                        <div className='input-field'>
-                            <label htmlFor="">City</label>
-                            <input type="text" placeholder='Enter your City' />
-                        </div>
-
-
                         
-                        <div className='input-field'>
-                            <label htmlFor="">Address</label>
-                            <input type="text" placeholder='Enter your Address' />
-                        </div>
-
-                        <div className='input-field'>
-                            <label htmlFor="">Phone Number</label>
-                            <input type="tel" placeholder='Enter your Phone Number' />
-                        </div>
-
-                        <div className='input-field'>
-                            <label htmlFor="">Email</label>
-                            <input type="email" placeholder='Enter your Email' />
-                        </div>
-
                     </form>
 
                     <form action="" id='student-enrollment-information'>
+                        <div id='personal-heading'>
+                            <h2>Enrollment Information</h2>
+                        </div>
+                        <div id='input-field-container'>
+                                      
                         <div className='input-field'>
                             <label htmlFor="">Select Department</label>
                             <select name="department" id="department">
@@ -121,9 +135,69 @@ function AdminForm() {
                         
                         </div>
 
+  
+                        </div>
 
 
                     </form>
+
+                    <div id='button-container'>
+
+                        <form action="">
+                            <h2 style={{fontSize:'17px', fontWeight:'300'}}>Choose an operation :</h2>
+                            <input type="submit" value={"Save"} />
+                            <input type="submit" value={"Delete"} />
+                            <input type="submit" value={"Update"} />
+
+
+                        </form>
+
+                        <div id='search-container'>
+                            <div id='search-inputs'>
+                                <span>
+                                <div className='input-field'>
+                                
+                                    <label htmlFor="">Search using</label>
+                                    <select name="search-criteria" id="search-criteria">
+                                        <option value="">-- Select Search Criteria --</option>
+                                        <option value="student-id">Student ID</option>
+                                        <option value="national-id">National ID</option>
+                                        <option value="email">First Name</option>
+                                        <option value="phone">Middle Number</option>
+                                        <option value="phone">Last Name</option>
+                                        <option value="phone">Gender</option>
+                                        <option value="phone">DOB</option>
+                                        <option value="phone">Country</option>
+                                        <option value="phone">City</option>
+                                        <option value="phone">Address</option>
+                                        <option value="phone">Phone Number</option>
+                                        <option value="phone">Email</option>
+                                        <option value="phone">Department</option>
+                                        <option value="phone">Degree</option>
+
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                                </span>
+                                  
+                                <span>
+                                    <label htmlFor="">Search for </label>
+                                    <input  type="text" placeholder='Password will be generated automatically' readOnly/>
+                               
+                                </span>
+                            </div>
+         
+                                <button id='search-btn'>Search 
+                                    <FiSearch></FiSearch>
+
+                                </button>
+
+ 
+
+                        </div>
+                    </div>
+
+             
                 </section>
 
 
@@ -153,9 +227,9 @@ function AdminForm() {
                         <tbody>
                             <tr>
                                 <td>123456789</td>
-                                <td>John</td>
+                                <td>Promise</td>
                                 <td>Doe</td>
-                                <td>Smith</td>
+                                <td>Siafwiyo</td>
                                 <td>Male</td>   
                                 <td>22/10/2005</td>
                                 <td>Pakistan</td>
@@ -220,6 +294,60 @@ function AdminForm() {
                                 <td>Biology</td>
                                 <td>Biology</td>
                                 <td>BIO654321</td>
+                                <td>password123</td>
+                            </tr>
+
+                            <tr>
+                                <td>222222222</td>
+                                <td>David</td>
+                                <td>Wilson</td>
+                                <td>Garcia</td>
+                                <td>Male</td>
+                                <td>15/07/2004</td>
+                                <td>USA</td>
+                                <td>Chicago</td>
+                                <td>654 Maple Avenue</td>
+                                <td>+1 312 555 9876</td>
+                                <td>david.garcia@example.com</td>
+                                <td>Chemistry</td>
+                                <td>Chemistry</td>
+                                <td>CHM987654</td>
+                                <td>password456</td>
+                            </tr>
+
+                            <tr>
+                                <td>333333333</td>
+                                <td>Sarah</td>
+                                <td>Lee</td>
+                                <td>Martinez</td>
+                                <td>Female</td>
+                                <td>25/11/2004</td>
+                                <td>USA</td>
+                                <td>Los Angeles</td>
+                                <td>987 Oak Street</td>
+                                <td>+1 213 555 9876</td>
+                                <td>sarah.martinez@example.com</td>
+                                <td>English</td>
+                                <td>English</td>
+                                <td>ENG654321</td>
+                                <td>password789</td>
+                            </tr>
+
+                            <tr>
+                                <td>444444444</td>
+                                <td>James</td>
+                                <td>Miller</td>
+                                <td>Taylor</td>
+                                <td>Male</td>
+                                <td>10/10/2004</td>
+                                <td>USA</td>
+                                <td>Houston</td>
+                                <td>147 Cedar Road</td>
+                                <td>+1 713 555 9876</td>
+                                <td>james.taylor@example.com</td>
+                                <td>History</td>
+                                <td>History</td>
+                                <td>HIST987654</td>
                                 <td>password123</td>
                             </tr>
                         </tbody>

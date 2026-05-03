@@ -24,7 +24,9 @@
 
 #Admin-form-page nav h2{
     font-size: 21px;
+
 }
+
 
 #Admin-form-page nav img{
     height: 40px;
@@ -65,10 +67,18 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    gap: 20px;
+}
+
+#top-heading h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 #input-form-container{
     display: grid;
-    grid-template-columns: 55% 45% ;
+    grid-template-columns: 58% 42% ;
     padding: 15px;
     background: var(--dark-theme-back);
     border-radius: 8px;
@@ -77,27 +87,45 @@
 }
 
 #Student-personal-details{
+    padding: 15px 20px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+#personal-heading h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--dark-theme-text-2);
+}
+
+
+#input-field-container{
+    margin-top: 22px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 10px;
-    border: 2px solid rgb(0, 0, 0);
     border-radius: 8px;
     align-items: center;
-
+   
 }
+
 
 #student-enrollment-information{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     padding: 10px;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 8px;
+    border-radius: 8px; */
+    padding: 15px 20px;
+
+    border: 2px solid rgb(0, 0, 0);
 }
+
+
 
 .input-field{
     display: flex;
@@ -109,7 +137,10 @@ input{
     width: 100%;
     padding: 8px;
     border-radius: 4px;
-    border: 1px solid rgb(85, 85, 85);
+    border: none;
+    /* border: 1px solid rgb(85, 85, 85); */
+    border-bottom: 1px solid var(--primary-color);
+
     background: var(--dark-theme-background);
     color: var(--dark-theme-text);
 }
@@ -122,12 +153,115 @@ select{
     width: 100%;
     padding: 8px;
     border-radius: 4px;
-    border: 1px solid rgb(85, 85, 85);
+    border: none;
+    /* border: 1px solid rgb(85, 85, 85); */
+    border-bottom: 1px solid var(--primary-color);
     background: var(--dark-theme-background);
     color: var(--dark-theme-text);
 }
 
+select option{
+    background: var(--dark-theme-background);
+    color: var(--dark-theme-text-2);
+}
 
+
+#button-container{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: 2px solid black;
+    padding: 15px 20px;
+    grid-column: span 2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#button-container form{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-container form h2{
+    width: 400px;
+}
+
+#button-container form input{
+    width: 100px;
+    height: 40px;
+
+    background: var(--primary-color);
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    align-self: center  ;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#button-container form input:hover{
+    scale: 1.06;
+}
+
+#search-container{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    width: 40%;
+    justify-content: center;
+
+}
+
+#search-btn{
+    background: green;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    align-self: center  ;
+    border: none;
+    cursor: pointer;
+
+}
+
+#search-inputs{
+    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 90%;
+}
+
+#search-inputs input{
+    width: 100%;
+}
+
+
+
+button{
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    /* border: 1px solid rgb(85, 85, 85); */
+    border-bottom: 1px solid var(--primary-color);
+
+    background: var(--dark-theme-background);
+    color: var(--dark-theme-text);
+}
 
 #information-table-container{
     width: 100%;
@@ -151,19 +285,24 @@ tbody{
 }
 
 th{
-    padding: 10px ;
+    padding: 10px  20px;
     text-align: left;
     color: var(--dark-theme-text-2);
-    font-weight: 700;
+    font-weight: 500;
+    border: 1px solid rgb(54, 54, 54);
+    font-size: 14px;
+
 }
 
 td{
 
-    padding: 5px 30px;
+    padding:12px;
     border-bottom: 1px solid rgb(85, 85, 85);
-    font-weight: 400;
+    font-weight: 300;
     color: var(--dark-theme-text-2);
-
+    cursor: pointer;
+    border: 1px solid rgb(54, 54, 54);
+    font-size: 14px;
 
 }
 

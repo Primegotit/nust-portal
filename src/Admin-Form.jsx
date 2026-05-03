@@ -126,7 +126,7 @@ function AdminForm() {
                         <div className='input-field'>
                             <label htmlFor="">Auto Generate Student Number</label>
                             <input type="text" placeholder='Student Number will be generated automatically' readOnly/><br />
-                            <button>Generate Password</button>
+                            <button>Generate Student ID</button>
 
                         </div>
 

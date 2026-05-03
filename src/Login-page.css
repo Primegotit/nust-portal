@@ -56,12 +56,12 @@ nav h2{
 
 
 #login-container{
-    width: 430px;
-    height: 450px;
+    width: 450px;
+    height: 470px;
     border-radius: 6px;
     background: var(--dark-theme-background);
     color: var(--dark-theme-text);
-    padding:17px ;
+    padding:27px ;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -111,8 +111,7 @@ nav h2{
 }
 
 #login-btn{
-    display: flex;
-    justify-self: center;
+  
     padding: 10px;
     background-color: var(--primary-color) ;
     background: var(--primary-color);
@@ -124,6 +123,9 @@ nav h2{
     border: none;
     cursor: pointer;
     transition: all 0.5s;
+    text-align: center;
+    display: grid;
+    margin: auto;
 }
 
 #login-btn:hover{

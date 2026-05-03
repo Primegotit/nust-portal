@@ -8,8 +8,9 @@ function App() {
 
   return (
     <>
+      <LoginPage></LoginPage>
+
       <StudentDashboard></StudentDashboard>
-      {/* <LoginPage></LoginPage> */}
 
       {/* <WelcomePage></WelcomePage> */}
 

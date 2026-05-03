@@ -152,7 +152,7 @@ header{
 
 aside{
     background: var(--dark-theme-back);
-    height: 90vh;
+    height: auto;
 }   
 
 
@@ -232,14 +232,12 @@ aside{
 #person-and-financial-box{
     display: flex;
     flex-direction: row;
-
     gap: 20px;
 }
 #reg-and-academic-box{
     display: flex;
-    flex-direction: row;
-
-    gap: 20px;
+    flex-direction: column;
+    gap: 70px;
     
 }
 
@@ -257,19 +255,20 @@ aside{
 #top-banner{
     background: var(--dark-theme-back);
     height: 50px;
-    width: 90%;
+    width: 100%;
     color: var(--dark-theme-text);
     display: flex;
     justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
     align-items: center;
     padding:20px;
-    border-radius: 10px;
     justify-self:center ;
     position: relative;
     top: -10px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-    border-bottom: 1px solid var(--primary-color);
-
+    border-bottom: 1px solid var(--secondary-color);
 
 }
 
@@ -317,6 +316,14 @@ aside{
 }
 
 
+#academic-details{
+    width: 100%;
+}
+
+#registered-courses{
+    width: 100%;
+
+}
 
 #academic-details .big-card-info{
     padding: 10px  20px;
@@ -452,7 +459,7 @@ aside{
     #student-dashboard-page{
         
         display: grid;
-        grid-template-rows: 3% 92%;
+        grid-template-rows: 12% 88%;
     
     }
 
@@ -536,4 +543,37 @@ aside{
     #student-card h4{
         font-size: clamp(0.3rem, 2.5vw, 0.99rem);
     }
+
+
+    #person-and-financial-box{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    #reg-and-academic-box{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+
+    }
+
+
+
+    .content-box{
+        width: 49vw;
+
+    }
+
+    
+    #person-container{
+        padding: 5px;
+
+
+    }
+
+
+    #person-information .big-card-info{
+    padding: 10px  20px;
+    width: 99%;
+}
 }

@@ -149,7 +149,7 @@ header{
     gap: 20px;
     height: fit-content;
     background: var(--dark-theme-student-dashboard-background) ;
-;
+    
 }
 
 aside{
@@ -227,7 +227,7 @@ aside{
     
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 20px;
+    padding: 30px;
     gap: 50px 50px ;
     width: auto;
 }
@@ -268,10 +268,10 @@ aside{
 #person-img{
     border-radius: 100%;
     overflow: hidden;
-    width: 30%;
     width: clamp(70px, 50%, 140px);
-
 }
+
+
 
 
 #person-container{
@@ -279,6 +279,8 @@ aside{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    
 
     padding: 10px;
     gap: 20px;
@@ -289,8 +291,22 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 200px;
-    /* max-height: 450px; */
+    min-height: 200px;
+    max-height: 450px;
+
+
+}
+
+#person-information .big-card-info{
+    /* border: 1px solid rgb(57, 57, 57); */
+    padding: 10px  20px;
+    width: 80%;
+}
+
+
+
+#academic-details .big-card-info{
+    padding: 10px  20px;
 }
 
 .big-card-info table{
@@ -320,6 +336,7 @@ aside{
 .big-card-info #hh1{
     font-size: clamp(0.8rem, 2.5vw, 1.0rem);
     font-weight: 200;
+
 }
 
 
@@ -335,21 +352,34 @@ aside{
 }
 
 
+
+
+#financial-details .big-card-info{
+    padding: 10px  20px;
+    width: 100%;
+}
+
+
+#registered-courses .big-card-info{
+    padding: 10px  20px;
+    width: 100%;
+}
+
 #courses-container{
     overflow: auto;
     width: 100%;
 
 }
 
+
 #courses-container table thead{
     background: var(--dark-theme-back);
 }
 
 #courses-container table thead th{
-    padding-top: 10px ;
-    padding-left: 10px ;
-    padding-right: 10px ;
-    padding-bottom: 10px ;
+  
+    padding: 10px 20px;
+
     text-align: left;
     border: 1px solid rgb(67, 67, 67);
 
@@ -359,6 +389,7 @@ aside{
 #courses-container table tbody #hh1{
     border: 1px solid rgb(67, 67, 67);
     transition: all 0.4s;
+    padding: 10px 20px;
 
 
 }

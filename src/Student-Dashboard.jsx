@@ -3,6 +3,11 @@ import { FaBars } from "react-icons/fa";
 import { MdLogout } from "react-icons/md";
 import { FaEnvelope } from "react-icons/fa";  
 import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
+
+import { useState } from "react";
+
+
 
 function MyButtons(MyContent){
     return(
@@ -13,8 +18,9 @@ function MyButtons(MyContent){
     )
 }
 
-
 function StudentDashboard(){
+const [showMorePersonalDetails, setShowMorePersonalDetails] = useState(false);
+const [showMore_FinancialDetails, setShowMore_FinancialDetails] = useState(false);
 
     return(
         <>
@@ -100,27 +106,33 @@ function StudentDashboard(){
                                             </tr>
 
 
-                                            {/* <tr>
-                                                <td id='hh1'>Phone Number</td>
-                                                <td id='hh1'>{"07899999999"}</td>
-                                            </tr> */}
+                                            {/* */}
 {/* 
-                                            <tr>
-                                                <td id='hh1'>Gender</td>
-                                                <td id='hh1'>{"Male"}</td>
-                                            </tr>
+*/}
 
-                                            <tr>
-                                                <td id='hh1'>Date of Birth</td>
-                                                <td id='hh1'>{"05-04-2005"}</td>
-                                            </tr>
+                                        {showMorePersonalDetails && (
+               
 
-                                            <tr>
-                                                <td id='hh1'>Place of Birth</td>
-                                                <td id='hh1'>{"Zimbabwe"}</td>
-                                            </tr> */}
+                                            <>
+                                                <tr>
+                                                    <td id='hh1'>Gender</td>
+                                                    <td id='hh1'>{"Male"}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td id='hh1'>Date of Birth</td>
+                                                    <td id='hh1'>{"05-04-2005"}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td id='hh1'>Place of Birth</td>
+                                                    <td id='hh1'>{"Zimbabwe"}</td>
+                                                </tr> 
+                                            </>
+                                    )}
 
                                         </tbody>
+                              
                                     </table>
 
                                 </div>
@@ -128,8 +140,12 @@ function StudentDashboard(){
                             </div>
 
                             <div className='show-more-content-btn'>
-                                <button><FaChevronDown /></button>
+                                <button  onClick={() => setShowMorePersonalDetails(!showMorePersonalDetails)} >
+                                     {showMorePersonalDetails ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
+                                </button>
                             </div>
+
+                      
 
                         </div>
 
@@ -169,10 +185,15 @@ function StudentDashboard(){
                                             </tr>
 
 
-                                            <tr>
-                                                <td id='hh1'>Current Semester</td>
-                                                <td id='hh1'>{"1"}</td>
-                                            </tr>
+
+                                            {showMore_FinancialDetails && (
+                                                <>
+                                                    <tr>
+                                                        <td id='hh1'>Current Semester</td>
+                                                        <td id='hh1'>{"1"}</td>
+                                                    </tr> 
+                                                </>
+                                            )}
 
                                         </tbody>
                                     </table>
@@ -182,8 +203,9 @@ function StudentDashboard(){
                             </div>
                             
                             <div className='show-more-content-btn'>
-                                <button><FaChevronDown /></button>
-
+                                <button  onClick={() => setShowMore_FinancialDetails(!showMore_FinancialDetails)} >
+                                     {showMore_FinancialDetails ? <FaChevronUp></FaChevronUp> : <FaChevronDown></FaChevronDown>}
+                                </button>
                             </div>
 
                         </div>
@@ -228,7 +250,7 @@ function StudentDashboard(){
                                                 <td id='hh1'>Software Engineering</td>
                                                 <td id='hh1'>Core</td>
                                             </tr>
-
+{/* 
                                             <tr>
                                                 <td id='hh1'>SCS1114</td>
                                                 <td id='hh1'>Database Systems</td>
@@ -276,7 +298,7 @@ function StudentDashboard(){
                                                 <td id='hh1'>Introduction to Linear Algebra</td>
                                                 <td id='hh1'>Core</td>
 
-                                            </tr>
+                                            </tr> */}
 
                                         </tbody>
                                     </table>
@@ -324,13 +346,13 @@ function StudentDashboard(){
                                                 <td id='#labell'>{"Zimbabwe"}</td>
 
                                             </tr>
-
+{/* 
                                             <tr>
                                                 <td id='#labell'>Phone Number</td>
                                                 <td id='#labell'>{"07899999999"}</td>
                                             </tr>
 
-{/* 
+
                                             <tr>
                                                 <td id='#labell'>Gender</td>
                                                 <td id='#labell'>{"Male"}</td>

@@ -15,7 +15,7 @@ function AdminForm() {
                 <div id='bottom-border'></div>
             </nav>
 
-        <div id='input-form-container-header'>
+        <div id='top-heading'>
             <h2>Student Management <FaEnvelope></FaEnvelope>  </h2>
         </div>
             <main>
@@ -152,7 +152,75 @@ function AdminForm() {
 
                         <tbody>
                             <tr>
+                                <td>123456789</td>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>Smith</td>
+                                <td>Male</td>   
+                                <td>22/10/2005</td>
+                                <td>Pakistan</td>
+                                <td>Karachi</td>
+                                <td>123 Main Street</td>
+                                <td>+92 300 1234567</td>
+                                <td>john.doe@example.com</td>
+                                <td>Computer Science</td>
+                                <td>Computer Science</td>
+                                <td>CS123456</td>
+                                <td>password123</td>
+                            </tr>
 
+                            <tr>
+                                <td>987654321</td>
+                                <td>Jane</td>
+                                <td>Smith</td>
+                                <td>Doe</td>
+                                <td>Female</td>
+                                <td>15/05/2004</td>
+                                <td>USA</td>
+                                <td>New York</td>
+                                <td>456 Oak Avenue</td>
+                                <td>+1 555 9876543</td>
+                                <td>jane.smith@example.com</td>
+                                <td>Mathematics</td>
+                                <td>Mathematics</td>
+                                <td>MATH654321</td>
+                                <td>password456</td>
+                            </tr>
+
+                            <tr>
+                                <td>555555555</td>
+                                <td>Michael</td>
+                                <td>Johnson</td>
+                                <td>Williams</td>
+                                <td>Male</td>
+                                <td>10/12/2003</td>
+                                <td>Canada</td>
+                                <td>Toronto</td>
+                                <td>789 Pine Street</td>
+                                <td>+1 416 555 9876</td>
+                                <td>michael.williams@example.com</td>
+                                <td>Physics</td>
+                                <td>Physics</td>
+                                <td>PHYS987654</td>
+                                <td>password789</td>
+                            </tr>
+
+                            <tr>
+                                <td>111111111</td>
+                                <td>Emily</td>
+                                <td>Brown</td>
+                                <td>Davis</td>
+                                <td>Female</td>
+                                <td>20/08/2004</td>
+                                <td>USA</td>
+                                <td>Los Angeles</td>
+                                <td>321 Elm Street</td>
+                                <td>+1 213 555 9876</td>
+                                <td>emily.davis@example.com</td>
+                                <td>Biology</td>
+                                <td>Biology</td>
+                                <td>BIO654321</td>
+                                <td>password123</td>
                             </tr>
                         </tbody>
 

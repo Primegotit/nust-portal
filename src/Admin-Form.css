@@ -6,7 +6,7 @@
 }
 
 #Admin-form-page{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background: var(--dark-theme-background);
     color: var(--dark-theme-text);
@@ -20,6 +20,10 @@
     gap: 10px;
     padding-top: 10px;
     background: var(--dark-theme-back);
+}
+
+#Admin-form-page nav h2{
+    font-size: 21px;
 }
 
 #Admin-form-page nav img{
@@ -57,6 +61,11 @@
     padding: 20px;
 }
 
+#top-heading{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 #input-form-container{
     display: grid;
     grid-template-columns: 55% 45% ;
@@ -121,10 +130,42 @@ select{
 
 
 #information-table-container{
-    background: green;
+    width: 100%;
+    overflow-x: scroll;
 }
 
+table{
+    border-collapse: collapse;
+    overflow: visible;
+    border: 2px solid rgb(85, 85, 85);
 
+}
+
+thead{
+    background: var(--dark-theme-back);
+}
+
+tbody{
+    background: var(--dark-theme-background);
+
+}
+
+th{
+    padding: 10px ;
+    text-align: left;
+    color: var(--dark-theme-text-2);
+    font-weight: 700;
+}
+
+td{
+
+    padding: 5px 30px;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    font-weight: 400;
+    color: var(--dark-theme-text-2);
+
+
+}
 
 
 

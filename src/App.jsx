@@ -5,11 +5,13 @@ import LoginPage from './Login-page'
 import StudentDashboard from './Student-Dashboard'
 import AdminForm from './Admin-Form'
 import LecturerForm from './LecturerForm'
+import StudentResults from './Student-Results'
 
 function App() {
 
   return (
     <>
+      <StudentResults></StudentResults>
       <LecturerForm></LecturerForm>
 
       <AdminForm></AdminForm>

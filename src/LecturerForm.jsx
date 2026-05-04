@@ -2,6 +2,7 @@ import './LecturerForm.css';
 import { FaUndo } from "react-icons/fa";
 import { FaSave } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";  
 
 
 function LecturerForm(){
@@ -9,7 +10,7 @@ function LecturerForm(){
         <div id="lecturer-form-container">
 
             <nav id='top-heading'>
-                <h2>Lecturer Form</h2>
+                <h2>Lecturer Form <FaEnvelope></FaEnvelope></h2>
 
             </nav>
             <div id='bottom-border'></div>
@@ -137,7 +138,7 @@ function LecturerForm(){
 
 
                 </div>
-                
+
 
                 <div id='students-info-container'>
 

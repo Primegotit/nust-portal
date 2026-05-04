@@ -215,7 +215,7 @@ select option{
     font-weight: 500;
 }
 
-#button-container form input:hover{
+#button-container form #btn2:hover{
     scale: 1.06;
 }
 

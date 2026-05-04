@@ -93,7 +93,7 @@
 #students-details-container{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
     gap: 10px;
     padding: 20px;
 }
@@ -105,6 +105,7 @@
     display: flex;
     flex-direction: column;
     border: 2px solid var(--primary-color);
+    width: 500px;
 }
 
 #students-input-container form{
@@ -177,6 +178,11 @@
 #student-table-container{
     overflow-y: auto;
     max-height: 550px;
+    width: 100%;
+}
+
+#student-table-container table{
+    width: 100%;
 }
 
 table thead{

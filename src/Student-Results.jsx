@@ -93,10 +93,172 @@ function StudentResults() {
                         </section>
 
                     </div>
-                    
+
                     <div id='students-results-table-container'>
 
+                        <section>
+                            <h3>Examination Results</h3>
+                        </section>
 
+                        <section>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Academic Year</th>
+                                        <th>Semester & Part</th>
+                                        <th>Course Code</th>
+                                        <th>Course Name</th>
+                                        <th>Mark</th>
+                                        <th>Classification</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2104</td>
+                                        <td>Web development</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+                                    <tr>
+                                        <td>2026</td>
+                                        <td>2.1</td>
+                                        <td>SCS2100</td>
+                                        <td>Introduction to Statistics</td>
+                                        <td>78</td>
+                                        <td>1</td>
+                                        
+                                    </tr>
+
+
+
+                                </tbody>
+                            </table>
+                            
+                        </section>
                     </div>
                 </div>
 

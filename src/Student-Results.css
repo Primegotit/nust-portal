@@ -6,7 +6,7 @@
 }
 
 #student-results-container{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background: var(--dark-theme-background);
     color: var(--dark-theme-text);
@@ -25,16 +25,20 @@
 
 
 #student-results-personal-info{
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 2px solid var(--secondary-color);
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+
+    background: var(--dark-theme-back);
 }
 
 #student-results-personal-info table{
     width: 100%;
+    border: 2px solid black;
 }
 
 #student-results-personal-info table th{
@@ -62,3 +66,20 @@
 
 
 
+
+#students-results-table-container{
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+
+    background: var(--dark-theme-back);
+}
+
+
+#students-results-table-container table{
+    width: 100%;
+}

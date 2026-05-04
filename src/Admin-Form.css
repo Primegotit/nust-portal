@@ -13,25 +13,6 @@
 }
 
 
-#Admin-form-page nav{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 10px;
-    background: var(--dark-theme-background);
-}
-
-#Admin-form-page nav h2{
-    font-size: 21px;
-
-}
-
-
-#Admin-form-page nav img{
-    height: 40px;
-}
-
 
 
 #bottom-border {
@@ -215,7 +196,7 @@ select option{
     width: 400px;
 }
 
-#button-container form input{
+#button-container form #btn2{
     width: 100px;
     height: 40px;
 

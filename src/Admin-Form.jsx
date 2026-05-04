@@ -2,24 +2,21 @@ import './Admin-Form.css';
 import { FaEnvelope } from "react-icons/fa";  
 import { FiSearch } from "react-icons/fi";
 import { MdLogout } from "react-icons/md";
+import { FaSave } from "react-icons/fa";
+import { FaEdit } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 function AdminForm() {
     return (
         <div id='Admin-form-page'>
-            <nav>
-
-                <div style={{display:'flex', alignItems:'center', gap:'20px', padding:'4px 20px'}}>
-                    <h2>Admin Form</h2>
-                    <img src="/logo_nust_png.png" alt="" id='nust-logo'  />
-       
-                </div>
-
-                <div id='bottom-border'></div>
-            </nav>
+ 
 
         <div id='top-heading'>
             <h2>Student Management <FaEnvelope></FaEnvelope>  </h2>
+
         </div>
+            <div id='bottom-border'></div>
+
             <main>
 
                 <section id='input-form-container'>
@@ -148,10 +145,11 @@ function AdminForm() {
 
                         <form action="">
                             <h2 style={{fontSize:'17px', fontWeight:'300'}}>Choose an operation :</h2>
-                            <input type="submit" value={"Save"} />
-                            <input type="submit" value={"Delete"} />
-                            <input type="submit" value={"Update"} />
+                            <button id='btn2'> Save <FaSave></FaSave></button>
+                            <button id='btn2'> Update <FaEdit></FaEdit></button>
+                            <button id='btn2'> Delete <FaTrash></FaTrash></button>
 
+                        
 
                         </form>
 
@@ -185,7 +183,7 @@ function AdminForm() {
                                   
                                 <span>
                                     <label htmlFor="">Search for </label>
-                                    <input  type="text" placeholder='Password will be generated automatically' />
+                                    <input  type="text" placeholder='Enter what you are looking for ' />
                                
                                 </span>
                             </div>

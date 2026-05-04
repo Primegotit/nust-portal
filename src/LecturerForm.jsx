@@ -1,5 +1,6 @@
 import './LecturerForm.css';
-
+import { FaUndo } from "react-icons/fa";
+import { FaSave } from "react-icons/fa";
 
 function LecturerForm(){
     return(
@@ -13,11 +14,133 @@ function LecturerForm(){
 
 
             <div id='main-content-container'>
-                <form action="">
-                    <label htmlFor="">Name</label>
-                    <input type="text" placeholder='Enter your name' />
 
+                <h3 id='instr'>Enter details</h3>
+                <br />
+                <form action="">
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="lecturer-id">Lecturer ID</label>
+                        <input type="text" id="lecturer-id" placeholder='Enter your Lecturer ID  ' />
+                    
+                    </section>
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="fullname">Full Name</label>
+                        <input type="text" id="name" placeholder='Enter full name' />
+                    
+                    </section>
+
+
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="department">Department</label>
+                        <select name="department" id="department">
+                            <option value="">--Select Department--</option>
+                            <option value="computer-science">Computer Science</option>
+                            <option value="mathematics">Mathematics</option>
+                            <option value="physics">Physics</option>
+                        </select>
+                    </section>
+                    
+
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="">Current Part</label>
+                        <select name="" id="">
+                            <option value="">1.1</option>
+                            <option value="">1.2</option>
+                            <option value="">2.1</option>
+                            <option value="">2.2</option>
+                            <option value="">3.1</option>
+                            <option value="">3.2</option>
+                            <option value="">4.1</option>
+                            <option value="">4.2</option>
+                        </select>
+                    </section>
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="current-module">Course Code</label>
+                        <input type="text" id="name" placeholder='Enter course code' />
+                    </section>
+
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="current-module">Current Module</label>
+                        <select name="current-module" id="current-module">
+                            <option value="">--Select Current Module--</option>
+                            <option value="data-structures">Data Structures</option>
+                            <option value="algorithms">Algorithms</option>
+                            <option value="database-systems">Database Systems</option>
+                        </select>
+                    </section>
+                    
+
+                    <section id='lecturer-field-container'>
+                        <label htmlFor="">Current Year</label>
+                        <input type="text" name="" id="" value={"2026"} readOnly />
+                    </section>
+
+                 
                 </form>
+                   <div id='lecturer-btn-container'>
+                        <button><FaSave /> Submit</button>
+                        <button><FaUndo /> Reset</button>
+
+                    </div>
+
+            </div>
+
+
+            <div id='students-details-container'>
+                <div id='students-input-container'>
+                    <div>
+                        <h2>Student Details</h2>
+                    </div>
+                    <br />
+                    <form action="">
+
+                        <section id='student-field-container'>
+                            <label htmlFor="student-id">Student ID</label>
+                            <input type="text" id="student-id" placeholder='Enter the Student ID  ' />
+                        </section>
+                        <section id='student-field-container'>
+                            <label htmlFor="student-name">Name</label>
+                            <input type="text" id="student-name" value={"Promise Siafwiyo"} placeholder='Student Name will appear here  ' readOnly />
+                        </section>
+                        <section id='student-field-container'>
+                            <label htmlFor="current-module">Course Code</label>
+                            <input type="text" id="current-module" placeholder='Course Code will appear here' value={"SCS2104"} readOnly/>
+                        </section>
+                        <section id='student-field-container'>
+                            <label htmlFor="current-module">Current Module</label>
+                            <input type="text" id="current-module" placeholder='Current Module will appear here' value={"Data structures"} readOnly/>
+                        </section>
+
+                        <section id='student-field-container'>
+                            <label htmlFor="current-module">Final Mark</label>
+                            <input type="text" id="current-module" placeholder='Enter final mark' value={"Data structures"} />
+                        </section>
+                        
+                    </form>
+
+                    <div id='lecturer-btn-container'>
+                        <button><FaSave /> Save</button>
+                        <button><FaUndo /> Edit</button>
+                        <button><FaUndo /> Reset</button>
+
+                    </div>
+
+
+                </div>
+
+                <div id='students-info-container'>
+
+                    <div id='student-search-conainer'>
+
+                    </div>
+
+                    <div id='student-table-container'>
+
+                    </div>
+
+                </div>
+
+                
             </div>
 
         </div>

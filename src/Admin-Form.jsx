@@ -5,6 +5,7 @@ import { MdLogout } from "react-icons/md";
 import { FaSave } from "react-icons/fa";
 import { FaEdit } from "react-icons/fa";
 import { FaTrash } from "react-icons/fa";
+import { FaUndo } from "react-icons/fa";
 
 function AdminForm() {
     return (
@@ -144,11 +145,11 @@ function AdminForm() {
                     <div id='button-container'>
 
                         <form action="">
-                            <h2 style={{fontSize:'17px', fontWeight:'300'}}>Choose an operation :</h2>
+                            <h2 style={{fontSize:'17px', fontWeight:'300'}}>Choose an operation</h2>
                             <button id='btn2'> Save <FaSave></FaSave></button>
                             <button id='btn2'> Update <FaEdit></FaEdit></button>
                             <button id='btn2'> Delete <FaTrash></FaTrash></button>
-
+                            <button id='btn2'> Reset <FaUndo></FaUndo></button>
                         
 
                         </form>

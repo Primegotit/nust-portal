@@ -101,7 +101,7 @@ function LecturerForm(){
                             <input type="text" id="student-id" placeholder='Enter the Student ID  ' />
                         </section>
                         <section id='student-field-container'>
-                            <label htmlFor="student-name">Name</label>
+                            <label htmlFor="student-name">Full Name</label>
                             <input type="text" id="student-name" value={"Promise Siafwiyo"} placeholder='Student Name will appear here  ' readOnly />
                         </section>
                         <section id='student-field-container'>
@@ -115,9 +115,13 @@ function LecturerForm(){
 
                         <section id='student-field-container'>
                             <label htmlFor="current-module">Final Mark</label>
-                            <input type="text" id="current-module" placeholder='Enter final mark' value={"Data structures"} />
+                            <input type="text" id="current-module" placeholder='Enter final mark' value={"74"} />
                         </section>
                         
+                        <section id='student-field-container'>
+                            <label htmlFor="current-module">Grade</label>
+                            <input type="text" id="current-module" placeholder='Grade will be shown here' value={"2.1"} readOnly />
+                        </section>
                     </form>
 
                     <div id='lecturer-btn-container'>
@@ -147,11 +151,106 @@ function LecturerForm(){
 
                             <button><FaSearch /> Search</button>
                         </form>
-
                     </div>
 
                     <div id='student-table-container'>
-
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Student ID</th>
+                                    <th>Full Name</th>
+                                    <th>Course Code</th>
+                                    <th>Current Module</th>
+                                    <th>Final Mark</th>
+                                    <th>Grade</th>
+                                </tr>
+                                                    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>111111111</td>
+                                    <td>Promise Siafwiyo</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>74</td>
+                                    <td>2.1</td>
+                                </tr>
+                                <tr>
+                                    <td>222222222</td>
+                                    <td>John Doe</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>85</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                                        <tr>
+                                    <td>333333333</td>
+                                    <td>Jane Smith</td>
+                                    <td>SCS2104</td>
+                                    <td>Web development</td>
+                                    <td>90</td>
+                                    <td>1</td>
+                                </tr>
+                   
+                 
+                            </tbody>
+                        </table>
                     </div>
 
                 </div>

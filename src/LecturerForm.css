@@ -121,12 +121,20 @@
 #students-info-container{
     
     background: var(--dark-theme-back);
-    padding:30px;
+    padding:20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     border: 2px solid var(--primary-color);
+    gap: 20px;
 
+}
+
+#student-search-container{
+    border: 2px solid var(--dark-theme-background);
+    background: var(--dark-theme-back);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 #student-search-container span {
@@ -163,3 +171,8 @@
     justify-content: space-around;
 }
 
+
+#student-table-container{
+    overflow-y: auto;
+    max-height: 550px;
+}

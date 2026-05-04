@@ -130,7 +130,7 @@ function LecturerForm(){
 
                     <div id='lecturer-btn-container'>
                         <button><FaSave /> Save</button>
-                        <button><FaUndo /> Edit</button>
+                        <button><FaUndo /> Update</button>
                         <button><FaUndo /> Reset</button>
 
                     </div>
@@ -161,6 +161,8 @@ function LecturerForm(){
                             </span>
 
                             <button><FaSearch /> Search</button>
+                            <button><FaSearch /> Reset</button>
+
                         </form>
                     </div>
 

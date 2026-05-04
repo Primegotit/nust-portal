@@ -16,6 +16,7 @@
     background: var(--dark-theme-background);
     padding: 10px 40px;
     border-radius: 10px;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 
@@ -141,7 +142,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 38%;
+    width: 30%;
 
 }
 
@@ -181,4 +182,13 @@
 table thead{
     position: sticky;
     top: 0px;
+}
+
+table tbody tr{
+    transition: all 0.3s;
+}
+
+table tbody tr:hover{
+    background: var(--dark-theme-hover-color);
+    color: var(--dark-theme-text-2);
 }

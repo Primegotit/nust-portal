@@ -105,6 +105,10 @@ function LecturerForm(){
                             <input type="text" id="student-name" value={"Promise Siafwiyo"} placeholder='Student Name will appear here  ' readOnly />
                         </section>
                         <section id='student-field-container'>
+                            <label htmlFor="current-module">Current Part</label>
+                            <input type="text" id="current-module" placeholder='Enter current part' value={"2.1"} readOnly />
+                        </section>
+                        <section id='student-field-container'>
                             <label htmlFor="current-module">Course Code</label>
                             <input type="text" id="current-module" placeholder='Course Code will appear here' value={"SCS2104"} readOnly/>
                         </section>
@@ -140,7 +144,14 @@ function LecturerForm(){
                         <form action="">
                             <span>
                                 <label htmlFor="">Search by</label>
-                                <input type="text" placeholder='Search using ' />
+                                <select name="" id="">
+                                    <option value="">--Select a field--</option>
+                                    <option value="">Student ID</option>
+                                    <option value="">Full Name</option>
+                                    <option value="">Final Mark</option>
+                                    <option value="">Grade</option>
+                                    
+                                </select>
 
                             </span>
                             <span>
@@ -159,10 +170,12 @@ function LecturerForm(){
                                 <tr>
                                     <th>Student ID</th>
                                     <th>Full Name</th>
+                                    <th>Current Part</th>
                                     <th>Course Code</th>
                                     <th>Current Module</th>
                                     <th>Final Mark</th>
                                     <th>Grade</th>
+                                    
                                 </tr>
                                                     
                             </thead>
@@ -170,6 +183,7 @@ function LecturerForm(){
                                 <tr>
                                     <td>111111111</td>
                                     <td>Promise Siafwiyo</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>74</td>
@@ -178,6 +192,7 @@ function LecturerForm(){
                                 <tr>
                                     <td>222222222</td>
                                     <td>John Doe</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>85</td>
@@ -186,6 +201,7 @@ function LecturerForm(){
                                 <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -194,6 +210,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -202,6 +219,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -210,6 +228,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -218,6 +237,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -226,6 +246,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -234,6 +255,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>
@@ -242,6 +264,7 @@ function LecturerForm(){
                                         <tr>
                                     <td>333333333</td>
                                     <td>Jane Smith</td>
+                                    <td>2.1</td>
                                     <td>SCS2104</td>
                                     <td>Web development</td>
                                     <td>90</td>

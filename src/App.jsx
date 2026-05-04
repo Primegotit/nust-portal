@@ -13,13 +13,15 @@ function App() {
     <>
       <LoginPage></LoginPage>
 
+
       <StudentResults></StudentResults>
       <LecturerForm></LecturerForm>
 
       <AdminForm></AdminForm>
-
-
       <StudentDashboard></StudentDashboard>
+
+
+
       {/* <WelcomePage></WelcomePage> */}
 
     </>

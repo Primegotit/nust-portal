@@ -7,7 +7,7 @@
 
 
 #student-dashboard-page{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background:rgb(15, 15, 15) ;
     display: grid;

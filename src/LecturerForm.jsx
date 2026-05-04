@@ -1,6 +1,8 @@
 import './LecturerForm.css';
 import { FaUndo } from "react-icons/fa";
 import { FaSave } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+
 
 function LecturerForm(){
     return(
@@ -130,7 +132,21 @@ function LecturerForm(){
 
                 <div id='students-info-container'>
 
-                    <div id='student-search-conainer'>
+                    <div id='student-search-container'>
+                        <form action="">
+                            <span>
+                                <label htmlFor="">Search by</label>
+                                <input type="text" placeholder='Search using ' />
+
+                            </span>
+                            <span>
+                                <label htmlFor="">Search For</label>
+                                <input type="text" placeholder='Search for ' />
+                            
+                            </span>
+
+                            <button><FaSearch /> Search</button>
+                        </form>
 
                     </div>
 

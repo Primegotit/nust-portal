@@ -39,6 +39,7 @@
 #student-results-personal-info table{
     width: 100%;
     border: 2px solid black;
+    border: 2px solid var(--primary-color);
 }
 
 #student-results-personal-info table th{
@@ -53,8 +54,10 @@
 }
 
 
+
 #student-results-personal-info table th img{
     height: 200px;
+
 }
 
 #student-results-personal-info table td{
@@ -82,4 +85,6 @@
 
 #students-results-table-container table{
     width: 100%;
+    border: 2px solid var(--primary-color);
+
 }

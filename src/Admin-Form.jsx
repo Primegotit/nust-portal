@@ -13,7 +13,7 @@ function AdminForm() {
  
 
         <div id='top-heading'>
-            <h2>Student Management <FaEnvelope></FaEnvelope>  </h2>
+            <h2>Admin Form <FaEnvelope></FaEnvelope>  </h2>
 
         </div>
             <div id='bottom-border'></div>

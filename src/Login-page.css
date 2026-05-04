@@ -10,7 +10,7 @@
         height: 100vh;
         width: 100%;
         display: grid;
-        grid-template-rows: 20% 80% ;
+        grid-template-rows: 11% 80% ;
         background:  linear-gradient(rgba(0, 0, 0, 0.708),rgba(0, 0, 0, 0.747)), url(/public/image1.jpg) ;    
         background-position: center;
         background-repeat: no-repeat;
@@ -29,9 +29,10 @@
     width: 100%;
     padding: 10px;
     display: flex;
-    justify-content:start;
+    justify-content:center;
     align-items: center;
-    flex-direction: column  ;
+    flex-direction: row  ;
+
     gap: 5px;
     position:sticky;
     top: 0;

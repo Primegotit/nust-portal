@@ -15,7 +15,50 @@
 #top-heading{
     background: var(--dark-theme-background);
     padding: 10px 40px;
-    border-radius: 10px;
-    border-bottom: 2px solid var(--secondary-color);
 }
+
+
+#student-results-envelope{
+    display: flex;
+    flex-direction: column ;
+}
+
+
+#student-results-personal-info{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid var(--secondary-color);
+}
+
+#student-results-personal-info table{
+    width: 100%;
+}
+
+#student-results-personal-info table th{
+    border: none;
+    width: 500px;
+
+}
+#student-results-personal-info table #image-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#student-results-personal-info table th img{
+    height: 200px;
+}
+
+#student-results-personal-info table td{
+    border: none;
+    width: 600px;
+}
+
+
+
+
 

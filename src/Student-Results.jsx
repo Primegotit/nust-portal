@@ -19,9 +19,15 @@ function StudentResults() {
                         </section>
                         <section>
                             <table>
-                                <tbody>
+                                <thead>
+
+                                <th id='image-con'>
+                                    <img src="/logo_nust_png.png" alt="" id='nust-logo' />
+
+                                </th>
+                                <th>
                                     <tr>
-                                        <td>Student ID : {"123456"}</td>
+                                        <td>National ID : {"123456"}</td>
                                     </tr>
 
                                     <tr>
@@ -45,22 +51,49 @@ function StudentResults() {
 
                                     </tr>
 
-                                    <tr>
-                                        <td>Address : {"Bulawayo Magwegwe North"}</td>
 
-                                    </tr>
 
                                     <tr>
                                         <td>Degree : {"Bachelor's Degree in Computer Science"}</td>
 
                                     </tr>
+                                </th>
 
+                                <th>
 
-                                </tbody>
+                                    <tr>
+                                        <td>Student Number : {"123456"}</td>
+                                    </tr>
+
+                               
+                                    
+
+                                    <tr>
+                                        <td>Country : {"Zimbabwe"}</td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>City : {"Bulawayo "}</td>
+
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Address : {"Magwegwe North"}</td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>Phone Number : 0789880071</td>
+                                    </tr>
+                                
+                                </th>
+                                </thead>
                             </table>
                         </section>
 
                     </div>
+                    
                     <div id='students-results-table-container'>
 
 

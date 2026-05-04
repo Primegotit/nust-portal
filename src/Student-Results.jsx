@@ -17,7 +17,7 @@ function StudentResults() {
                         <section>
                             <h3>Personal Information</h3>
                         </section>
-                        <section>
+                        <section id='results-table-con'>
                             <table>
                                 <thead>
 
@@ -25,6 +25,7 @@ function StudentResults() {
                                     <img src="/logo_nust_png.png" alt="" id='nust-logo' />
 
                                 </th>
+
                                 <th>
                                     <tr>
                                         <td>National ID : {"123456"}</td>

@@ -32,19 +32,29 @@
     gap: 20px;
     border-top: 2px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
-
+    
     background: var(--dark-theme-back);
+}
+
+#results-table-con{
+    border: 4px solid var(--dark-theme-background);
+    border-radius:10px ;
+    padding: 10px;
 }
 
 #student-results-personal-info table{
     width: 100%;
-    border: 2px solid black;
-    border: 2px solid var(--primary-color);
+    border:none;
+    background: var(--dark-theme-background);
+
+}
+#student-results-personal-info table thead{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #student-results-personal-info table th{
     border: none;
-    width: 500px;
 
 }
 #student-results-personal-info table #image-con{
@@ -81,6 +91,8 @@
 
     background: var(--dark-theme-back);
 }
+
+
 
 
 #students-results-table-container table{

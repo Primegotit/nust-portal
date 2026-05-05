@@ -6,8 +6,10 @@
     --primary-color:#ff8f1f;
     --secondary-color:#ffa11d;
 
+    --blue-color:rgb(5, 121, 166);
+
     --light-theme-background:white;
-    --light-theme-text:black;
+    --light-theme-text:rgb(63, 63, 63);
     --light-theme-back:rgb(216, 216, 216);
 
     

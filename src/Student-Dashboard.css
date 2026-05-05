@@ -11,7 +11,7 @@
     width: 100%;
     background:rgb(15, 15, 15) ;
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 6% 90%;
     
 }
 
@@ -24,8 +24,8 @@ header{
 }
 
 #header-things{
-    background: var(--dark-theme-back);
-    color: var(--dark-theme-text);
+    background: var(--primary-color);
+    color: var(--dark-theme-text-btn);
 
     display: flex;
     flex-direction: row;
@@ -98,6 +98,13 @@ header{
 
 }
 
+#left-top-container button{
+    background: transparent;
+    width: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+
 #left-top-container h3{
     font-size: clamp(0.9rem, 2.5vw, 1.4rem);
     display: flex;
@@ -120,10 +127,10 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 4px;
-    background: var(--dark-theme-background);
-    background: var(--primary-color);
+    background: var(--dark-theme-text);
     font-weight: 600;
-    color: var(--dark-theme-text);
+    color: var(--dark-theme-text-btn);
+
     border-radius: 7px;
     cursor: pointer;
     transition: all 0.5s;
@@ -145,14 +152,18 @@ header{
     /* overflow: hidden; */
     display: grid;
     grid-template-columns: 14% 80%;
+    /* grid-template-columns: 100%; */
+
     gap: 20px;
     height: fit-content;
-    background: var(--dark-theme-student-dashboard-background) ;
+    background: var(--dark-theme-background) ;
 }
 
 aside{
-    background: var(--dark-theme-back);
+    background: var(--dark-theme-back-textbox);
     height: auto;
+    border-right: 1px solid var(--blue-color);
+    box-shadow: var(--mybox-shadow);
 }   
 
 
@@ -164,20 +175,20 @@ aside{
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px 0px 20px;
-    background: var(--dark-theme-back);
+    background: var(--dark-theme-back-textbox);
     color: var(--dark-theme-text);
-    border-top: 1px solid rgb(70, 70, 70);
-    border-bottom: 1px solid rgb(70, 70, 70);
+    border-bottom: 1px solid var(--blue-color);
     border-left: none;
-    border-right: none;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.2s;
+    border-radius: 0px;
     
 }
 
 #btns:hover{
-    background: var(--dark-theme-hover-color);
+    background: var(--table-thead);
     transform: translateX(10px);
+
 }
 
 #btns-icons{
@@ -193,6 +204,8 @@ aside{
     color: var(--dark-theme-text);
     padding: 20px;
     gap: 5px;
+    border-bottom: 1px solid var(--blue-color);
+    box-shadow: --mybox-shadow;
 }
 
 #dp-container {
@@ -245,35 +258,33 @@ aside{
 
 .content-box{
     background: var(--dark-theme-background);
+    box-shadow: var(--mybox-shadow);
     border-radius: 10px;
     height: max-content;
     width: 39vw;
+    border: 2px solid var(--primary-color);
 }
 
 
 
 #top-banner{
-    background: var(--dark-theme-back);
+    background: var(--blue-color);
     height: 50px;
     width: 100%;
-    color: var(--dark-theme-text);
+    color: var(--dark-theme-text-btn);
     display: flex;
     justify-content: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
     align-items: center;
     padding:20px;
     justify-self:center ;
-    position: relative;
-    top: -10px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-    border-bottom: 1px solid var(--secondary-color);
-
+    border-bottom: 2px solid var(--primary-color);
+    box-shadow: var(--mybox-shadow);
 }
 
 #top-banner h3{
-    font-weight: 300;
+    font-weight: 500;
 }
 
 
@@ -331,13 +342,12 @@ aside{
 
 .big-card-info table{
     border-collapse: collapse;
-}
+    }
 
 
 
 .big-card-info table td{
     padding: 10px 10px 10px 7px ;
-    border-bottom: 2px solid rgb(67, 67, 67);
 
 
 }
@@ -396,17 +406,16 @@ aside{
 }
 
 #courses-container table thead th{
+    color: var(--dark-theme-text);
   
     padding: 10px 20px;
 
     text-align: left;
-    border: 1px solid rgb(67, 67, 67);
 
 }
 
 
 #courses-container table tbody #hh1{
-    border: 1px solid rgb(67, 67, 67);
     transition: all 0.4s;
     padding: 10px 20px;
 
@@ -425,7 +434,6 @@ aside{
     align-self: flex-end;
     justify-content: center;
     position: relative;
-    bottom: -20px;
     border-radius: 10px;
     width: 100%;
     height: 40px;
@@ -437,16 +445,14 @@ aside{
     border: none;
     padding-left: 10px;
     padding-right: 10px;
-    /* background: var(--primary-color); */
     color: var(--dark-theme-text);
-    width: 100%;
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-    border-top: 1px solid rgb(67, 67, 67);
+    width: 100%;
     transition: all 0.4s;
-    background: var(--dark-theme-background);
+    border-top: 2px solid var(--table-thead);
 
 
 }

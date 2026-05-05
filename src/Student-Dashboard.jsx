@@ -22,6 +22,22 @@ function StudentDashboard(){
 const [showMorePersonalDetails, setShowMorePersonalDetails] = useState(false);
 const [showMore_FinancialDetails, setShowMore_FinancialDetails] = useState(false);
 const [showMore_RegisteredCourses, setShowMore_RegisteredCourses] = useState(false);
+const [showAside , setShowAside] = useState(false);
+const [collapsed, setCollapsed] = useState(false);
+
+function showAsideFunction(){
+    setShowAside(!showAside);
+}
+
+function changeWidth(){
+    setCollapsed(!collapsed);
+}
+
+function removeAside(){
+    changeWidth();
+    showAsideFunction();
+
+}
 
     return(
         <>
@@ -29,14 +45,18 @@ const [showMore_RegisteredCourses, setShowMore_RegisteredCourses] = useState(fal
                 <header>
                     <div id='header-things'>
                         <div id='left-top-container'>
-                            <FaBars id='top-icons'></FaBars>
+                            <button   onClick={removeAside}>
+                                <FaBars  id='top-icons'></FaBars>
+
+                            </button>
+
                             <h3 >STUDENT PORTAL <img src="/logo_nust_png.png" alt="" id='uni-logo' /></h3>
                     
                         </div>
 
                         <div id='right-top-container'>
                             <FaEnvelope id='top-icons'></FaEnvelope>                        
-                            <button id='logout-btn'>Logout<MdLogout id='logout-btn-icon'></MdLogout></button>
+                            <button  id='logout-btn'>Logout<MdLogout id='logout-btn-icon'></MdLogout></button>
                     
                         </div>
                     </div>
@@ -47,8 +67,13 @@ const [showMore_RegisteredCourses, setShowMore_RegisteredCourses] = useState(fal
 
                 </header>
                 
-                <div  id='main-content'>
-                    <aside>
+                <div  id='main-content' style={{
+                    gridTemplateColumns: collapsed ?   "14% 80%" : "100%"
+                    }
+                }>
+                    <aside style={{
+                        display: showAside ? "inline": "none"
+                    }}>
                         <div id='student-card'>
                             <div id='dp-container'>
                                 <img src="/me1.png" alt="" id='student-dp' />
@@ -65,7 +90,7 @@ const [showMore_RegisteredCourses, setShowMore_RegisteredCourses] = useState(fal
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Examinations Results" ></MyButtons>
                         <MyButtons icon={<MdLogout id='btns-icons'></MdLogout>} name="Modules Information" ></MyButtons>
 
-                    </aside>
+                    </aside> 
 
                     <section id='content-container'>
 

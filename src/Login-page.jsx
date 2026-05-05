@@ -37,9 +37,7 @@ function LoginPage() {
 
                     </div>
 
-                    <div id='bottom-nust-banner'>
-                        <h4>2026 University management system</h4>
-                    </div>
+           
                      
                 </div>
                 

@@ -1,5 +1,7 @@
 import './Student-Results.css'
 import { FaSearch } from "react-icons/fa";
+import { FiUser } from "react-icons/fi";
+import { FiBarChart2 } from "react-icons/fi";
 
 function StudentResults() {
     return (
@@ -15,7 +17,7 @@ function StudentResults() {
 
                     <div id='student-results-personal-info'>
                         <section>
-                            <h3>Personal Information</h3>
+                            <h2><FiUser fontSize={30}/> Personal Information </h2>
                         </section>
                         <section id='results-table-con'>
                             <table>
@@ -97,8 +99,14 @@ function StudentResults() {
 
                     <div id='students-results-table-container'>
 
-                        <section>
-                            <h3>Examination Results</h3>
+                        <section id='examination-heading'>
+                            <h2><FiBarChart2 fontSize={30}/> Examination Results </h2>
+                            <span>
+                                <button>Screenshot</button>
+                                <button>Print</button>
+
+                            </span>
+
                         </section>
 
                         <section>

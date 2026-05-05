@@ -3,6 +3,9 @@ import { FaUndo } from "react-icons/fa";
 import { FaSave } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";  
+import { FaEdit } from "react-icons/fa";
+import { FiFileText } from "react-icons/fi";
+import { FiUser } from "react-icons/fi";
 
 
 function LecturerForm(){
@@ -18,7 +21,7 @@ function LecturerForm(){
 
             <div id='main-content-container'>
 
-                <h3 id='instr'>Enter details</h3>
+                <h2 id='instr'><FiUser/>Enter details </h2>
                 <br />
                 <form action="">
                     <section id='lecturer-field-container'>
@@ -92,7 +95,7 @@ function LecturerForm(){
             <div id='students-details-container'>
                 <div id='students-input-container'>
                     <div>
-                        <h2>Student Details</h2>
+                        <h2><FiFileText/> Student Details </h2>
                     </div>
                     <br />
                     <form action="">
@@ -131,7 +134,7 @@ function LecturerForm(){
 
                     <div id='lecturer-btn-container'>
                         <button><FaSave /> Save</button>
-                        <button><FaUndo /> Update</button>
+                        <button><FaEdit /> Update</button>
                         <button><FaUndo /> Reset</button>
 
                     </div>
@@ -163,7 +166,7 @@ function LecturerForm(){
                             </span>
 
                             <button><FaSearch /> Search</button>
-                            <button><FaSearch /> Reset</button>
+                            <button><FaUndo /> Reset</button>
 
                         </form>
                     </div>

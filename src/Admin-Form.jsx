@@ -6,6 +6,10 @@ import { FaSave } from "react-icons/fa";
 import { FaEdit } from "react-icons/fa";
 import { FaTrash } from "react-icons/fa";
 import { FaUndo } from "react-icons/fa";
+import { FiUser } from "react-icons/fi";
+import { FaDice } from "react-icons/fa";
+import { FaRandom } from "react-icons/fa";
+
 
 function AdminForm() {
     return (
@@ -24,7 +28,7 @@ function AdminForm() {
 
                     <form action="" id='Student-personal-details'>
                         <div id='personal-heading'>
-                            <h2>Personal Details <MdLogout></MdLogout></h2>
+                            <h2> <FiUser/> Personal Details </h2>
                         </div>
 
                         <div id='input-field-container'>
@@ -124,7 +128,7 @@ function AdminForm() {
                         <div className='input-field'>
                             <label htmlFor="">Auto Generate Student Number</label>
                             <input type="text" placeholder='Student Number will be generated automatically' readOnly/><br />
-                            <button>Generate Student ID</button>
+                            <button><FaRandom/> Generate Student ID </button>
 
                         </div>
 
@@ -132,7 +136,7 @@ function AdminForm() {
                         <div className='input-field'>
                             <label htmlFor="">Auto Generate Password for Portal</label>
                             <input type="text" placeholder='Password will be generated automatically' readOnly/><br />
-                            <button>Generate Password</button>
+                            <button><FaRandom/> Generate Password </button>
                         
                         </div>
 
@@ -146,10 +150,10 @@ function AdminForm() {
 
                         <form action="">
                             <h2 style={{fontSize:'17px', fontWeight:'300'}}>Choose an operation</h2>
-                            <button id='btn2'> Save <FaSave></FaSave></button>
-                            <button id='btn2'> Update <FaEdit></FaEdit></button>
-                            <button id='btn2'> Delete <FaTrash></FaTrash></button>
-                            <button id='btn2'> Reset <FaUndo></FaUndo></button>
+                            <button id='btn2'> <FaSave/>Save </button>
+                            <button id='btn2'> <FaEdit/>Update </button>
+                            <button id='btn2'> <FaTrash/>Delete </button>
+                            <button id='btn2'> <FaUndo/>Reset </button>
                         
 
                         </form>
@@ -189,9 +193,9 @@ function AdminForm() {
                                 </span>
                             </div>
          
-                                <button id='search-btn'>Search 
-                                    <FiSearch fontSize={20}></FiSearch>
-
+                                <button id='search-btn'> 
+                                    <FiSearch fontSize={20} />
+                                    Search      
                                 </button>
 
  

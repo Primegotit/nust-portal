@@ -69,8 +69,10 @@
 
 #Student-personal-details{
     padding: 15px 20px;
-    border: 2px solid rgb(0, 0, 0);
-
+    border: 2px solid var(--primary-color);
+    background: var(--dark-theme-background);
+    border-radius: 10px;
+    box-shadow: var(--mybox-shadow);
 }
 
 #personal-heading h2{
@@ -96,17 +98,11 @@
 
 
 #student-enrollment-information{
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 8px; */
     padding: 15px 20px;
-
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid var(--primary-color);
+    background: var(--dark-theme-background);
+    border-radius: 10px;
+    box-shadow: var(--mybox-shadow);
 }
 
 
@@ -138,10 +134,9 @@ input{
     padding: 8px;
     border-radius: 4px;
     border: none;
-    /* border: 1px solid rgb(85, 85, 85); */
     border-bottom: 1px solid var(--primary-color);
 
-    background: var(--dark-theme-background);
+    background: var(--dark-theme-back-textbox);
     color: var(--dark-theme-text);
 }
 
@@ -156,7 +151,8 @@ select{
     border: none;
     /* border: 1px solid rgb(85, 85, 85); */
     border-bottom: 1px solid var(--primary-color);
-    background: var(--dark-theme-background);
+    background: var(--dark-theme-back-textbox);
+
     color: var(--dark-theme-text);
 }
 
@@ -171,12 +167,16 @@ select option{
     display: flex;
     flex-direction: row;
     gap: 40px;
-    border: 2px solid black;
-    
+    border: 2px solid var(--primary-color);
+    background: var(--dark-theme-background);
+    border-radius: 10px;
+    box-shadow: var(--mybox-shadow);
+
     padding: 15px 20px;
     grid-column: span 2;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 #button-container form{
@@ -297,7 +297,7 @@ table{
 }
 
 thead{
-    background: var(--table-thead);
+    background: var(--blue-color);
 }
 
 tbody{
@@ -311,7 +311,7 @@ th{
     color: var(--dark-theme-text);
     font-weight: 500;
     border: 1px solid var(--primary-color);
-
+    color: var(--dark-theme-text-btn);
     font-size: 14px;
 
 }

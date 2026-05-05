@@ -14,6 +14,8 @@
 #examination-heading{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 #examination-heading button{
@@ -72,6 +74,7 @@
     border: 4px solid var(--dark-theme-background);
     border-radius:10px ;
     padding: 10px;
+    width: 100%;
 }
 
 #student-results-personal-info table{
@@ -135,5 +138,26 @@
 #students-results-table-container table{
     width: 100%;
     border: 2px solid var(--primary-color);
+
+}
+
+#exam-table-con{
+    overflow-x: auto;
+}
+
+
+
+@media (max-width: 700px) {
+
+    #results-table-con{
+
+    }
+
+    #student-results-personal-info table thead{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }

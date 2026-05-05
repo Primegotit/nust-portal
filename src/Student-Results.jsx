@@ -109,7 +109,7 @@ function StudentResults() {
 
                         </section>
 
-                        <section>
+                        <section id='exam-table-con'>
 
                             <table>
                                 <thead>

@@ -103,6 +103,7 @@
     background: var(--dark-theme-background);
     border-radius: 10px;
     box-shadow: var(--mybox-shadow);
+
 }
 
 
@@ -191,11 +192,20 @@ select option{
     background: var(--dark-theme-back);
     border-radius: 8px;
     border: 2px solid var(--dark-theme-background);
+    flex-direction: column;
+
 
 }
+  #button-container form span{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
 
 #button-container form h2{
     width: 400px;
+    text-align: center;
 }
 
 #button-container form #btn2{
@@ -329,7 +339,38 @@ td{
 
 }
 
+@media (max-width: 1120px){
+    #input-form-container{
+        display: flex;
+        flex-direction: column;
+
+    }
 
 
+    #button-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #button-container form{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #button-container form span{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #search-container{
+        width: 100%;
+
+    }
+
+}
 
 

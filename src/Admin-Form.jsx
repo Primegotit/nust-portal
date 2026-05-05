@@ -150,11 +150,14 @@ function AdminForm() {
 
                         <form action="">
                             <h2 style={{fontSize:'17px', fontWeight:'300'}}>Choose an operation</h2>
-                            <button id='btn2'> <FaSave/>Save </button>
-                            <button id='btn2'> <FaEdit/>Update </button>
-                            <button id='btn2'> <FaTrash/>Delete </button>
-                            <button id='btn2'> <FaUndo/>Reset </button>
-                        
+                            <span>
+                                <button id='btn2'> <FaSave/>Save </button>
+                                <button id='btn2'> <FaEdit/>Update </button>
+                                <button id='btn2'> <FaTrash/>Delete </button>
+                                <button id='btn2'> <FaUndo/>Reset </button>
+
+                            </span>
+
 
                         </form>
 

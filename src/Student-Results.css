@@ -13,14 +13,19 @@
 }
 
 #top-heading{
-    background: var(--dark-theme-background);
+    background: var(--primary-color);
     padding: 10px 40px;
+    color: var(--dark-theme-text-btn);
 }
 
 
 #student-results-envelope{
     display: flex;
     flex-direction: column ;
+    width: 98%;
+    justify-self: center;
+    padding: 20px;
+    
 }
 
 
@@ -30,10 +35,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border-top: 2px solid var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
-    
+    border: 2px solid var(--primary-color);
     background: var(--dark-theme-back);
+    box-shadow: var(--mybox-shadow);
+    border-radius:10px ;
+
+
 }
 
 #results-table-con{
@@ -43,18 +50,22 @@
 }
 
 #student-results-personal-info table{
+    
     width: 100%;
     border:none;
-    background: var(--dark-theme-background);
 
 }
 #student-results-personal-info table thead{
+    background: var(--dark-theme-text-btn);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
 }
 
 #student-results-personal-info table th{
+    
     border: none;
+    
 
 }
 #student-results-personal-info table #image-con{
@@ -73,6 +84,7 @@
 #student-results-personal-info table td{
     border: none;
     width: 600px;
+    font-weight: 600;
 }
 
 
@@ -86,9 +98,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border-top: 2px solid var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
-
+    border: 2px solid var(--primary-color);
+    box-shadow: var(--mybox-shadow);
+    border-radius:10px ;
     background: var(--dark-theme-back);
 }
 

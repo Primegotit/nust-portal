@@ -30,8 +30,7 @@ function LoginPage() {
 
                             </div>
                             <br />
-                            <input type="submit" value={"LOG IN"} id='login-btn'/>
-
+                            <button id='login-btn'>LOG IN</button>
                                 
                         </form>
 

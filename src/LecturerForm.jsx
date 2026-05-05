@@ -165,8 +165,12 @@ function LecturerForm(){
                             
                             </span>
 
-                            <button><FaSearch /> Search</button>
-                            <button><FaUndo /> Reset</button>
+                            <div id='buttton-conn'>
+                                <button><FaSearch /> Search</button>
+                                <button><FaUndo /> Reset</button>
+                            </div>
+
+
 
                         </form>
                     </div>

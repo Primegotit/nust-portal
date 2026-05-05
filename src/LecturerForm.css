@@ -160,6 +160,11 @@
     width: 30%;
 
 }
+#buttton-conn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 
 #student-search-container form button{
@@ -230,5 +235,42 @@ table tbody tr:hover{
 }
 
 @media (max-width: 700px){
+    
+    #students-input-container{
+        width: 100%;
+
+    }
+
+    
+#students-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #student-search-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #student-search-container span {
+        width: 100%;
+    }
+    #student-search-container{
+        width: 100%;
+    }
+
+    
+    #buttton-conn{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 10px;
+    }
+    #students-info-container{
+        width: 100%;
+    }
 
 }

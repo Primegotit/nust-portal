@@ -12,6 +12,8 @@ function App() {
 
   return (
     <>
+      <WelcomePage></WelcomePage>
+
       <LoginPage></LoginPage>
       <StudentResults></StudentResults>
       <LecturerForm></LecturerForm>
@@ -21,7 +23,6 @@ function App() {
 
 
 
-      {/* <WelcomePage></WelcomePage> */}
 
     </>
   )

@@ -1,4 +1,5 @@
 import './Welcome-page.css'
+import { FaBars } from "react-icons/fa";   
 
 function WelcomePage() {
   return (
@@ -13,8 +14,7 @@ function WelcomePage() {
             <li><a href="">Developers</a></li>
 
           </ul>
-          <img src="/logo_nust_png.png" alt="" id='nust-logo' />
-
+          <FaBars id='img1'></FaBars>
         </div>
 
         <div id='welcome-content-container'>
@@ -25,6 +25,18 @@ function WelcomePage() {
               The system allows students and lectures and the admin, to log in , check results, manage students, allocate marks, manage modules and etc.
               The most important part about this system is that it offers robust security and is impenetrable to hacking or any type of digital maliciuos act.
             </p>
+
+            <div id='tiles-container'>
+              <ul>
+                <li id='tile'>Secure</li>
+                <li id='tile'>Prominent</li>
+                <li id='tile'>Excellence</li>
+                <li id='tile'>Modern</li>
+                <li id='tile'>Disciplined</li>
+                <li id='tile'>Cultural</li>
+
+              </ul>
+            </div>
           </div>
 
           <div id='image-container'>

@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100%;
     background: white;
-    background:  linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.849)), url(/public/image1.jpg) ;    
+    background:  linear-gradient(rgba(0, 0, 0, 0.925),rgba(0, 0, 0, 0.877)), url(/public/image1.jpg) ;    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,6 +52,11 @@
     height: 60px;
 }
 
+#heading-container #img1{
+    font-size:30px;
+    visibility: hidden;
+}
+
 
 #content-container-welcome{
     margin: 0px;
@@ -59,17 +64,21 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
 }
 
 #content-container-welcome h1{
+    font-weight: 400;
 }
 
 #content-container-welcome p{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    font-weight: 200;
+    line-height: 23px;
+
 }
 
 #image-container{
@@ -84,3 +93,27 @@
     background-attachment: local;
 }
 
+
+#tiles-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#tiles-container ul{
+    font-weight: 200;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+}
+
+#tile{
+    border: 1px solid var(--primary-color);
+    padding: 3px 15px;
+    border-radius: 18px;
+    font-size: 14px;
+}

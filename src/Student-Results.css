@@ -23,6 +23,12 @@
     font-weight: 600;
     border: none;
     max-width: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#examination-heading button:hover{
+    scale: 1.08;
 }
 
 #examination-heading span{

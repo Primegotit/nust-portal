@@ -184,7 +184,6 @@ function AdminForm() {
                                         <option value="phone">Department</option>
                                         <option value="phone">Degree</option>
 
-                                        <option value=""></option>
                                     </select>
                                 </div>
                                 </span>

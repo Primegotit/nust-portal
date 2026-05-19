@@ -39,13 +39,17 @@
     justify-content: space-evenly;
     gap: 20px;
     list-style-type: none;
-
 }
 
 #heading-container ul li a{
     text-decoration: none;
     color: var(--dark-theme-background);
+    transition: all 0.5s;
+  
+}
 
+#heading-container ul li a:hover{
+    color: var(--primary-color);
 }
 
 #heading-container img{
@@ -113,7 +117,8 @@
 
 #tile{
     border: 1px solid var(--primary-color);
-    padding: 3px 15px;
+    padding: 2px 13px;
     border-radius: 18px;
     font-size: 14px;
+    color: var(--dark-theme-back-textbox);
 }

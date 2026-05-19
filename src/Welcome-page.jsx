@@ -34,6 +34,11 @@ function WelcomePage() {
                 <li id='tile'>Modern</li>
                 <li id='tile'>Disciplined</li>
                 <li id='tile'>Cultural</li>
+                <li id='tile'>Cultural</li>
+                <li id='tile'>Cultural</li>
+                <li id='tile'>Cultural</li>
+                <li id='tile'>Cultural</li>
+
 
               </ul>
             </div>
